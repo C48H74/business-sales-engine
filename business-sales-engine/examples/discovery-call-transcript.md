@@ -1,43 +1,62 @@
-# Annotated discovery conversation
+# Annotated discovery call (SPIN)
 
-**Synthetic role-play, not a real customer transcript.** Figures are scenario inputs, not independent evidence or measured results. Use [discovery guide](../templates/discovery-call-guide.md).
+Fictional example. Seller sells a client-reporting automation service to a 25-person marketing agency. Method: `references/discovery.md`. Scoring: `checklists/post-call-rubric.md`.
 
-**Seller:** "We have twenty minutes. I'd like to understand the report handoff and decide whether a sample review would help. What should we include?"
+---
 
-*Agenda and permission; does not assume the buyer needs the offer.*
+**Seller:** Thanks for making time. Before anything else, could you walk me through how client reports get produced today? *(Situation: open, their process, not our pitch)*
 
-**Buyer:** "Mostly why approvals slip."
+**Buyer (Dana, COO):** Each account manager pulls data from four tools into a spreadsheet, makes charts, writes commentary. Monthly, for about 40 clients.
 
-**Seller [Situation]:** "Walk me through the last reporting cycle."
+**Seller:** How long does one report take? *(Situation: one number)*
 
-**Buyer:** "Three engineers assembled files, then a manager reviewed them. It took six hours to assemble."
+**Buyer:** Maybe five or six hours.
 
-**Seller [Problem]:** "Where did it get stuck, and what have you tried?"
+**Seller:** And what happens when the numbers don't match between tools? *(Problem)*
 
-**Buyer:** "The manager couldn't tell which version was final. We added a shared folder but the naming still differs."
+**Buyer:** That's the worst part. We've sent two wrong reports this year. One client asked for a credit.
 
-*Mechanism hypothesis: version/ownership ambiguity; software is not assumed to be the answer.*
+**Seller:** What did that cost you, roughly? *(Implication: quantify)*
 
-**Seller [Implication]:** "What happened after that, and how did you track the effect?"
+**Buyer:** The credit was about €1,800, but the account manager spent two days fixing it, and the client now double-checks everything.
 
-**Buyer:** "We repeated two hours of assembly. I have a time log. No customer delivery was delayed."
+**Seller:** So the cost isn't only the credit; it's trust. How does that affect renewals? *(Implication: second-order)*
 
-*Do not inflate this to lost revenue or contractual penalties.*
+**Buyer:** That's the real worry. Two of our top five clients renew in Q1.
 
-**Seller [Need-payoff]:** "What would a useful next cycle look like?"
+**Seller:** If you add 10 clients next year at this process, what happens to the team? *(Implication: growth)*
 
-**Buyer:** "One agreed final version and less rework. We need the manager to accept the naming rules."
+**Buyer:** We'd have to hire another account manager just to produce reports. That's not what we hire them for.
 
-**Seller [Gap/qualification]:** "Who owns that decision, and how would you test success?"
+**Seller:** Let me check I have it right. Reports take 5–6 hours each, 40 a month, so roughly 200–240 hours; errors have cost a credit and a damaged relationship, and growth means a new hire. Did I miss anything? *(Summary, buyer's words and numbers)*
 
-**Buyer:** "The manager. We could use one report and compare the rework log. Procurement approves any paid review; I don't know their lead time."
+**Buyer:** No, that's it. Honestly, 240 hours is more than I thought when you say it out loud.
 
-*Decision owner reported; funding/paper process unresolved. Do not mark this enterprise deal fully qualified.*
+**Seller:** If this were solved, what would be different for you? *(Need-payoff, the buyer states the value)*
 
-**Seller:** "It sounds like version rules and approval ownership matter more than a new tool. We can review one sample and propose rules, but manager adoption is a dependency. Would a joint review make sense?"
+**Buyer:** Account managers would spend that time on strategy calls. And I'd stop worrying about renewals.
 
-**Buyer:** "Send the scope and price first. I'll review it and confirm whether next Wednesday is useful."
+**Seller:** Who else would be involved in a decision like this? *(Multithreading)*
 
-*Valid written next action. Wednesday is proposed, not booked.*
+**Buyer:** I'd decide, but our head of data would need to approve how data is connected.
 
-**Call record:** buyer-reported six-hour assembly and two-hour rework; log not yet inspected; target is one accepted final version; next action is scope/price for written review; manager/procurement route requires confirmation. No savings or meeting acceptance claimed. Coaching: strong recent-behavior discovery; obtain actual log and criteria before quantifying ROI.
+**Seller:** Could we include them in the next 30 minutes? And what are you comparing this against: another vendor, a freelancer, doing it yourselves? *(Alternatives + next step)*
+
+**Buyer:** We looked at a BI tool, and our intern suggested building something. Thursday works for the call.
+
+**Seller:** Great. I'll send a one-page summary tonight with your numbers, and bring a worked example using one of your reports on Thursday.
+
+---
+
+## Annotations
+
+| Moment | Technique | Why it matters |
+|---|---|---|
+| Situation questions | Kept to two | Too many situation questions bore the buyer; research first |
+| "Two days fixing it… client double-checks" | Implication | The buyer, not the seller, builds the cost of inaction |
+| "240 hours is more than I thought" | Self-persuasion | A number said aloud by the seller but derived from the buyer's inputs |
+| Summary + "Did I miss anything?" | Labeling / confirmation | Invites correction; locks the shared problem definition |
+| "Who else… alternatives" | MEDDPICC: decision process, competition | Done before any pitch |
+| Pitch timing | After the gap was built | Rubric line 12 = 2 |
+
+**Rubric score (self-assessed):** talk ratio ≈ 35% seller (2), 10 questions (1), all SPIN types (2), pain with number (2), cost of inaction stated by buyer (2), decision process partial (1), alternatives asked (2), objections n/a, who else + agreed (2), next step dated (2), recap pending, pitch timing (2).

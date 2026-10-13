@@ -46,8 +46,8 @@ Trust runs through every step: clear expectations, measured results and proof th
 **Claude Code:**
 
 ```bash
-git clone https://github.com/C48H74/motor-comercial-negocios.git
-cp -r motor-comercial-negocios/business-sales-engine ~/.claude/skills/
+git clone https://github.com/C48H74/business-sales-engine.git
+cp -r business-sales-engine/business-sales-engine ~/.claude/skills/
 ```
 
 ## Usage
@@ -69,7 +69,7 @@ Educational content. Not a substitute for legal, accounting or tax advice.
 Skill para o Claude que desenha ou revisa a parte comercial de qualquer negócio: oferta, preço e camadas, garantias, escassez e urgência, venda, contrato, indicações, estudos de caso e conteúdo.
 
 - Pasta: [`motor-comercial-negocios/`](motor-comercial-negocios/SKILL.md)
-- Instalação no Claude Code: `cp -r motor-comercial-negocios/motor-comercial-negocios ~/.claude/skills/`
+- Instalação no Claude Code: `cp -r business-sales-engine/motor-comercial-negocios ~/.claude/skills/`
 - Uso: *"Use a skill motor-comercial-negocios para revisar a oferta e o preço do meu [negócio]."*
 
 Síntese própria e parafraseada; não contém transcrições. Conteúdo educativo, não substitui orientação jurídica, contábil ou fiscal.
@@ -79,7 +79,7 @@ Síntese própria e parafraseada; não contém transcrições. Conteúdo educati
 Skill para Claude que diseña o revisa la parte comercial de cualquier negocio: oferta, precio y niveles, garantías, escasez y urgencia, venta, contrato, recomendaciones, casos de éxito y contenido.
 
 - Carpeta: [`motor-comercial-negocios-es/`](motor-comercial-negocios-es/SKILL.md)
-- Instalación en Claude Code: `cp -r motor-comercial-negocios/motor-comercial-negocios-es ~/.claude/skills/`
+- Instalación en Claude Code: `cp -r business-sales-engine/motor-comercial-negocios-es ~/.claude/skills/`
 - Uso: *"Usa la skill motor-comercial-negocios-es para revisar la oferta y el precio de mi [negocio]."*
 
 Síntesis propia y parafraseada; no contiene transcripciones. Contenido educativo, no sustituye el asesoramiento jurídico, contable o fiscal.

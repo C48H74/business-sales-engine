@@ -1,137 +1,103 @@
-# Objection library — 15 diagnostic patterns
+# Objection library (15)
 
-Original illustrative scripts, not customer quotes or guaranteed rebuttals. Adapt to the buyer's actual answer. Acknowledge → clarify → confirm cause → offer relevant evidence/option → agree action or accept no. See [diagnosis](../references/objections.md), [JOLT](../references/jolt.md) and [negotiation](../references/negotiation.md).
+Format per objection: what they say → likely real cause → diagnostic question → bad response → good response. Method: `references/objections.md`. Indecision: `references/jolt.md`. Price: `references/negotiation.md`.
 
-## 1. "It's too expensive"
+---
 
-- **Possible causes:** affordability, weak value, comparison mismatch or refusal.
-- **Bad:** "You can't afford not to buy. I'll discount it today."
-- **Clarify:** "Compared with an alternative, or is the issue the available budget?"
-- **Good:** "If the smaller scope covers your required outcome, we can price that separately. If the value is uncertain, let's verify the assumptions before changing terms."
-- **Evidence/action:** equivalent-scope comparison or buyer-validated case; record changed scope/contribution.
-- **Stop/defer:** no affordable viable scope or buyer declines.
+### 1. "It's too expensive."
+**Likely cause:** value not quantified; wrong comparison; sticker shock without a business case.
+**Diagnose:** "Compared to what?" / "What were you expecting, and what was that based on?"
+**Bad:** "I can see what I can do on the price." (teaches that the first number is padding)
+**Good:** "That's fair to raise. Earlier you said the problem costs about [X]/month. The program is [Y], so it pays back in [Z] months if we hit even half of that. Which part of that feels off?"
 
-## 2. "There's no budget"
+### 2. "I need to think about it."
+**Likely cause:** indecision (fear of choosing wrong), not the offer.
+**Diagnose:** "Of course. What specifically would you be thinking about?"
+**Bad:** "Sure, I'll follow up next week." (deal dies in silence)
+**Good:** "Makes sense. Usually at this point it's one of three things: the money, the timing, or whether it'll work here. Which is closest?" → then JOLT: recommend one option, limit further research, remove the risk.
 
-- **Possible causes:** no allocation, cash timing, low priority or no funding route.
-- **Bad:** "Any serious company finds money."
-- **Clarify:** "Is funding unavailable entirely, or does an owner need a case to allocate it?"
-- **Good:** "We can prepare a brief case if that helps the decision. If there is no route this period, we can pause rather than propose terms you cannot fund."
-- **Evidence/action:** funding owner/process, feasible payment timing or consented later trigger.
-- **Stop/defer:** no viable funding path; do not confuse willingness with ability.
+### 3. "We already have a solution / vendor."
+**Likely cause:** status quo bias; switching cost; loyalty to the person who chose it.
+**Diagnose:** "What's working well with it? What would have to go wrong for you to look again?"
+**Bad:** "Ours is better because [features]."
+**Good:** "Good; switching is costly and I'm not here to argue. The teams that do move usually cite [one specific gap]. Is that something you see, or is the current setup covering it?"
 
-## 3. "We already have a supplier/tool"
+### 4. "Just send me some material."
+**Likely cause:** brush-off; no pain surfaced yet.
+**Diagnose:** "Happy to. So I send the right thing — what would you want it to answer?"
+**Bad:** sending the deck.
+**Good:** "I'll send one page. Before I do: is [problem] something you're dealing with this year, or not really? If not, I'd rather not clutter your inbox."
 
-- **Possible causes:** adequate solution, switching cost, loyalty or uncovered need.
-- **Bad:** "Their service is probably outdated."
-- **Clarify:** "What works well, and is anything important still unresolved?"
-- **Good:** "If it covers the need, replacing it may not help. If [confirmed gap] matters, we can compare a limited complementary scope."
-- **Evidence/action:** requirements and actual gap, integration/switching cost.
-- **Stop/defer:** current option is sufficient; no disparagement.
+### 5. "It's not a priority right now."
+**Likely cause:** implication never built; or it's true.
+**Diagnose:** "Understood. What is the priority this quarter? Does this problem touch it?"
+**Bad:** "When would be a better time?" (accepts the brush-off)
+**Good:** "That's useful. If [problem] is costing [consequence] while you focus on [their priority], it might be eating the thing you're prioritizing. Worth 15 minutes to check that, or genuinely unrelated?"
 
-## 4. "I'll think about it"
+### 6. "I have to run it by my boss / the committee."
+**Likely cause:** you're single-threaded; the champion lacks a tool to sell internally.
+**Diagnose:** "Makes sense. What will they ask you? What do they need to see?"
+**Bad:** "Great, let me know what they say."
+**Good:** "Let's make that easy. I'll draft a one-page business case in your words; you edit it. And would it help if I joined for 15 minutes to answer their questions directly?"
 
-- **Possible causes:** unclear value, choice anxiety, missing stakeholder or polite no.
-- **Bad:** "There are only two slots left; decide now."
-- **Clarify:** "Which question do you still need to resolve, if any?"
-- **Good:** "If the concern is [confirmed uncertainty], I recommend [reasoned option] and a bounded check of [criterion]. If now is not the right time, that's fine."
-- **Evidence/action:** identify uncertainty and owner; use JOLT only if supported.
-- **Stop/defer:** buyer wants space or declines further discussion.
+### 7. "Can you do it cheaper?"
+**Likely cause:** testing; or a real budget cap.
+**Diagnose:** "What number works, and what's driving it?"
+**Bad:** "I can do 10% off." (free concession)
+**Good:** "I can't move the price for the same scope. I can do [smaller scope] at [lower price], or hold the price if you can [annual prepayment / case study / referral / start this month]. Which is more useful?"
 
-## 5. "Send me information"
+### 8. "We'll build it in-house."
+**Likely cause:** underestimating cost and time; a team that wants the project.
+**Diagnose:** "What would it take: people, months, who owns it after launch?"
+**Bad:** "You'll never be able to build this."
+**Good:** "Some teams should. The ones that regret it usually underestimate [maintenance / time to competence]. If you priced it at [their salaries × months], does it still win? Happy to run that comparison with you."
 
-- **Possible causes:** written review preference, early research, time constraint or dismissal.
-- **Bad:** Send a large deck and repeatedly ask for a meeting.
-- **Clarify:** "Which question would the information need to answer?"
-- **Good:** "I'll send the scope, price and [specific answer]. Would a review on [date] help, or would you prefer to come back if relevant?"
-- **Evidence/action:** concise relevant document; follow-up only as agreed.
-- **Stop/defer:** no further engagement requested; written review is valid.
+### 9. "We tried something like this and it didn't work."
+**Likely cause:** real scar; fear of repeating it.
+**Diagnose:** "What happened? What would have made it work?"
+**Bad:** "That was them, we're different."
+**Good:** "That's exactly the risk to design around. From what you describe, it failed at [adoption / scope / sponsor]. Here's what we do differently at that point, and here's what we'd put in writing so you're not exposed if it happens again."
 
-## 6. "I need to ask my boss/committee"
+### 10. "Send me a proposal."
+**Likely cause:** polite exit, or genuine but premature.
+**Diagnose:** "Glad to. Before I write it: what would make it a yes, and who decides?"
+**Bad:** writing a 20-page proposal.
+**Good:** "I'll write it, and I'd like to walk you through it live for 20 minutes so I can answer questions rather than guess. When works?"
 
-- **Possible causes:** authority, consensus, sponsor uncertainty or process.
-- **Bad:** "Can you sign now and tell them later?"
-- **Clarify:** "What will they need to evaluate, and who owns those criteria?"
-- **Good:** "Let's prepare a forwardable case with benefits, effort and limits. We can join a review if that is your preferred route."
-- **Evidence/action:** committee map, criteria, approval sequence and dates.
-- **Stop/defer:** no legitimate path to an authorized decision.
+### 11. "Your competitor is cheaper."
+**Likely cause:** comparing price, not scope or outcome; negotiation tactic.
+**Diagnose:** "What's in their scope? What did they commit to on [outcome / timeline / guarantee]?"
+**Bad:** matching the price.
+**Good:** "They may be the right choice for you. If the scope is the same, I'd want to understand how they deliver it at that price. If it's smaller, let's compare like with like; I can scope ours down to match if that's what you need."
 
-## 7. "Now isn't the right time"
+### 12. "We don't have budget this year."
+**Likely cause:** budget not yet created because pain isn't quantified; or true.
+**Diagnose:** "When is budget set? What would make this fundable then?"
+**Bad:** "OK, I'll check back next year."
+**Good:** "Understood. Budgets get created when a problem has a number. If we document that [problem] costs [X], does that change the conversation now, or is next year's cycle the realistic path? If so, let's prepare for it."
 
-- **Possible causes:** low priority, dependency, busy rollout or seller-created urgency.
-- **Bad:** "Waiting will put you behind every competitor."
-- **Clarify:** "What would need to change for timing to become sensible?"
-- **Good:** "Given [dependency], [later milestone] seems more realistic. Would you like one check-in then, or should I close this out?"
-- **Evidence/action:** actual buyer event/dependency, permission/date.
-- **Stop/defer:** no meaningful trigger or consent to revisit.
+### 13. "Can we start with a free pilot?"
+**Likely cause:** risk aversion; or fishing for free work.
+**Diagnose:** "What would the pilot need to prove? Who decides afterwards?"
+**Bad:** free, open-ended pilot.
+**Good:** "A pilot is a good idea if it has a finish line. Let's scope a paid pilot with written success criteria and a decision date; the fee is credited against the full contract if you go ahead."
 
-## 8. "We don't need it / we're too small"
+### 14. "We're too small for this."
+**Likely cause:** fit doubt; fear of overpaying.
+**Diagnose:** "What size do you think this works for, and why?"
+**Bad:** "No, it's for everyone."
+**Good:** "Sometimes true. For a team your size the version that fits is [smaller scope]; for some it's genuinely not worth it yet. What's the number that would make it worth it for you?"
 
-- **Possible causes:** genuine no-fit, low impact or misunderstood scope.
-- **Bad:** "Regulations will catch you out if you don't buy."
-- **Clarify:** "How often does [job/problem] occur, and is the current approach sufficient?"
-- **Good:** "For that volume, the current method may be adequate. A smaller check could help only if [confirmed issue] is material."
-- **Evidence/action:** frequency, consequence and suitable alternative.
-- **Stop/defer:** need is too small for this offer; no manufactured compliance fear.
+### 15. "Call me back in six months."
+**Likely cause:** polite no; or a real event in six months.
+**Diagnose:** "What changes in six months?"
+**Bad:** a calendar reminder and nothing else.
+**Good:** "I will. So the call is useful then: what will be different — budget, a project, a person? And in the meantime, is there one thing I can send that helps with [problem] now?"
 
-## 9. "We're concerned about implementation"
+---
 
-- **Possible causes:** capacity, migration, adoption, disruption or unclear ownership.
-- **Bad:** "It's easy; our other customers never struggle."
-- **Clarify:** "Which part of the transition would be most costly if it failed?"
-- **Good:** "We can test [critical workflow] with [owner] before rollout, using [success/stop conditions]. These dependencies remain yours/ours: [actual split]."
-- **Evidence/action:** delivery plan, effort, rollback, pilot and owner.
-- **Stop/defer:** required capability or buyer staffing is unavailable.
+## Add your own
 
-## 10. "How do I know it will work?"
-
-- **Possible causes:** proof gap, attribution uncertainty or mismatched expectations.
-- **Bad:** "We guarantee results for everyone."
-- **Clarify:** "What result and evidence would make this credible for your situation?"
-- **Good:** "Our evidence supports [bounded scope], with [limits]. A test of [criterion] would resolve the remaining uncertainty; we cannot promise [uncontrolled outcome]."
-- **Evidence/action:** approved relevant case or labeled demo/pilot.
-- **Stop/defer:** demanded result is unsupported or outside control.
-
-## 11. "Your competitor is cheaper"
-
-- **Possible causes:** comparable alternative, different scope, procurement benchmark.
-- **Bad:** "Cheap providers always fail."
-- **Clarify:** "Are the scope, support, implementation and terms comparable?"
-- **Good:** "Let's compare the required criteria. If their option meets them at lower total cost, it may be right for you. Our difference is [verified distinction]."
-- **Evidence/action:** honest requirements/cost comparison and exclusions.
-- **Stop/defer:** no meaningful differential value; do not fabricate weaknesses.
-
-## 12. "Give us a discount"
-
-- **Possible causes:** policy, bargaining, funding or uncertainty disguised as price.
-- **Bad:** "Sure, 20% off if you sign before lunch."
-- **Clarify:** "What constraint would the discount solve?"
-- **Good:** "We can offer [authorized change] if [valuable reciprocal term]. Alternatively, [reduced scope] changes the total without hiding tradeoffs."
-- **Evidence/action:** concession ledger, contribution floor and written terms.
-- **Stop/defer:** beyond authority/economics; no automatic split-the-difference.
-
-## 13. "We have security/legal concerns"
-
-- **Possible causes:** mandatory requirement, review process or actual product gap.
-- **Bad:** "We're fully compliant; legal always says that."
-- **Clarify:** "Which specific requirement must be met, and who validates it?"
-- **Good:** "We can supply the verified materials for [scope]. [Unknown requirement] remains unconfirmed. Let's have the relevant owners review before making a commitment."
-- **Evidence/action:** documented capabilities, reviewer, paper process and gaps.
-- **Stop/defer:** mandatory requirement cannot be met; no invented certification.
-
-## 14. "Can we just build it ourselves?"
-
-- **Possible causes:** capable internal team, control needs or incomplete cost comparison.
-- **Bad:** "Your team can't do what we do."
-- **Clarify:** "What are the build, maintenance and opportunity costs, and who will own it?"
-- **Good:** "Internal build is a valid option. Compare [required criteria], actual effort and support responsibilities with our scope; we can help only where the difference is useful."
-- **Evidence/action:** buyer-validated build/buy case without inflated losses.
-- **Stop/defer:** internal option fits better; preserve a truthful recommendation.
-
-## 15. "We're not interested / stop contacting us"
-
-- **Possible cause:** explicit refusal; further diagnosis is unnecessary.
-- **Bad:** "Before I stop, can I show you one last thing?"
-- **Good:** "Understood. I'll close this out and respect your request."
-- **Evidence/action:** record suppression/close-out through the authorized process; do not send additional persuasive touches.
-- **Stop:** immediately; no channel switching or colleague outreach to evade refusal.
+| Objection heard | Real cause found | Question that worked | Response that worked |
+|---|---|---|---|
+| | | | |

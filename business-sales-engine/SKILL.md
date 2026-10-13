@@ -1,114 +1,149 @@
 ---
 name: business-sales-engine
-description: Diagnose and build a commercial engine for services, SaaS/PLG and B2B enterprise sales; use for discovery, offers, pricing, negotiation, buying committees, pipeline, onboarding, churn, retention and commercial experiments.
-license: CC-BY-4.0
+description: "Design, diagnose or run the sales engine of any business: offer and pricing, lead qualification (MEDDPICC, gap selling), discovery calls (SPIN), objections and no-decision deals (JOLT), negotiation and discounts, buying committees and multithreading, outbound prospecting and email deliverability, pitch narrative, founder-led sales, PLG and product-qualified leads, B2B enterprise, SaaS, churn and retention, CAC/LTV/payback metrics, guarantees, scarcity, referrals, case studies and content. Triggers: sales, pricing, offer, deal stuck, 'I'll think about it', negotiation, cold email, cold call, discovery call, buying committee, churn, pipeline, proposal, business case."
 metadata:
   version: "2.0.0"
-  reviewed: "2026-10-13"
-  next-review: "2027-04-13"
-  language: en
+  last_reviewed: "2026-10-13"
+  review_cadence: "Every 6 months: re-check trends.md, metrics benchmarks and reading-list.md against new sources."
+  license: "CC BY 4.0"
 ---
 
-# Business Sales Engine 2.0
+# Business Sales Engine (v2)
 
-Turn a commercial question into an evidence-backed decision and usable operating tools. Preserve the original twelve areas (0–11), but diagnose the bottleneck before applying a playbook. English is the maintained source; respond in the user's requested language. The repository's PT/ES skills remain v1.
+This file is an **orchestrator**, not an encyclopedia. It decides which module to load for the situation at hand. Theory lives in `references/`, fillable artifacts in `templates/`, scripts in `objections/`, go/no-go gates in `checklists/`, worked contrasts in `examples/`. Load only what the situation needs.
 
-## Start with scope and evidence
+Reply in the user's language. Be direct. Every recommendation must end in an artifact, a script or a number, never in a slogan.
 
-| Mode | Use when | Return |
+## Step 0 — Pick the mode
+
+| Mode | When | Deliverable |
 |---|---|---|
-| Focused review | One offer, email, price, objection or proposal | Diagnosis, revised artifact, rationale, unresolved facts, next action |
-| Bottleneck diagnosis | Results are weak but the cause is uncertain | Funnel/economics baseline, competing explanations, priority, one experiment |
-| Complete engine | A business or sales motion needs design | Applicable steps 0–11, completed templates, owners, metrics and phased plan |
+| **Quick review** | User brings one thing (an email, a price, a proposal, an objection) | Verdict + corrected version + one reason per change |
+| **Bottleneck diagnosis** | "I need more clients / revenue / margin" with no clear cause | Diagnosis across the 5 checkpoints below + the single next experiment (use `templates/experiment-card.md`) |
+| **Full build** | New offer, new segment, new motion, or a founder starting to sell | The relevant subset of the 12-step map, each step closed with its template |
 
-Choose the mode from the request. Reuse supplied data; ask only for missing facts that change the decision and advance independent work meanwhile. Label statements **observed**, **buyer-reported**, **assumed** or **proposed**. Unknown is not zero. Use customer quotes only when supplied or recorded. Never invent customers, outcomes, budgets or stakeholder authority.
+Never default to the full build. Ask which mode if unclear; if the user is absent, pick the smallest mode that answers the request and say so.
 
-## Decision tree: load only relevant resources
+## Step 1 — Decision tree: what to load
 
-| Trigger | Read | Fill/use |
-|---|---|---|
-| Need leads / outbound | [Outbound](references/outbound.md) | [Five touches](templates/5-touch-sequence.md), [cold calls](templates/cold-call-scripts.md), [email examples](examples/cold-email-good-vs-bad.md) |
-| First customer conversation | [Discovery](references/discovery.md) | [Call guide](templates/discovery-call-guide.md), [annotated transcript](examples/discovery-call-transcript.md) |
-| Enterprise qualification | [Qualification](references/qualification.md) | [MEDDPICC](templates/meddpicc-scorecard.md), [deal review](checklists/deal-review.md) |
-| Funnel stages / deal progress | [Sales process](references/sales-process.md) | [Mutual action plan](templates/mutual-action-plan.md), [dashboard](templates/metrics-dashboard.md) |
-| "I'll think" / stalled decision | [Indecision](references/jolt.md), [objection diagnosis](references/objections.md) | [15-objection library](objections/library.md) |
-| Discount / terms / price objection | [Negotiation](references/negotiation.md), [pricing](references/pricing.md) | [Negotiation planner](templates/negotiation-planner.md), [business case](templates/business-case-onepager.md) |
-| One contact / conflicting stakeholders | [Multithreading](references/multithreading.md) | [Committee map](templates/buying-committee-map.md), [mutual action plan](templates/mutual-action-plan.md) |
-| Pitch / demo / positioning | [Narrative](references/narrative.md), [offer](references/offer.md) | [Pitch](templates/pitch-narrative.md), [offer canvas](templates/offer-pricing-canvas.md) |
-| Founder before repeatability | [Founder sales](references/founder-sales.md) | [Engine diagnostic](templates/engine-diagnostic.md) |
-| SaaS usage / free plan / expansion | [PLG/PQL](references/plg-pql.md), [metrics](references/metrics.md) | [PLG experiment](templates/plg-experiment.md), [dashboard](templates/metrics-dashboard.md) |
-| Churn / delivery / scope creep | [Delivery and retention](references/delivery-retention.md) | [30/60/90 handoff](templates/onboarding-30-60-90.md) |
-| Proof / guarantee / scarcity | [Proof](references/proof.md), [psychology](references/psychology.md) | [Risk review](checklists/risk-and-proof.md), [case study](templates/case-study.md) |
-| Contract / referrals / content | [Contract](references/contract.md), [referrals](references/referrals.md), [content](references/content.md) | [Agreement checklist](checklists/contract-handoff.md), [referral request](templates/referral-request.md) |
-| AI prospecting / call analysis / brand | [AI in sales](references/ai-sales.md) | [AI evaluation](templates/ai-sales-evaluation.md), [brand audit](templates/ai-brand-audit.md) |
-| New plan / unclear issue | [Diagnosis](references/diagnosis.md), [economics](references/economics.md) | [Diagnostic](templates/engine-diagnostic.md), [experiment](templates/experiment-card.md) |
+| Situation | Load |
+|---|---|
+| "I need more clients" / unclear bottleneck | **Diagnosis sequence** below, then `references/metrics.md` |
+| Offer is vague, price was guessed, tiers are a mess | `references/offer-pricing.md` + `templates/pricing-tier-worksheet.md` |
+| Build pipeline / prospect / cold outreach | `references/outbound.md` + `templates/5-touch-sequence.md` + `templates/cold-call-scripts.md` + `examples/cold-email-good-vs-bad.md` |
+| First call with a prospect | `references/discovery.md` + `templates/discovery-call-guide.md` + `examples/discovery-call-transcript.md` |
+| Qualify an enterprise / large deal | `references/qualification.md` + `templates/meddpicc-scorecard.md` |
+| Deal stalled, "I'll think about it", no next step | `references/jolt.md` + `objections/library.md` |
+| Any objection, price pushback | `references/objections.md` + `objections/library.md`; for price also `references/negotiation.md` |
+| Discount request, procurement, contract terms | `references/negotiation.md` + `templates/business-case-onepager.md` |
+| Only one contact in the account | `references/multithreading.md` + `templates/buying-committee-map.md` |
+| Pitch, demo, deck, website hero | `references/narrative.md` + `templates/pitch-narrative.md` |
+| Founder selling for the first time, hiring first rep | `references/founder-sales.md` |
+| Self-serve product with usage signals | `references/plg-pql.md` |
+| Guarantee, refund policy, urgency, scarcity | `references/guarantees-scarcity.md` |
+| Churn, onboarding, scope creep, referrals, case studies | `references/delivery-retention.md` |
+| Website, content, what to publish | `references/content.md` |
+| Using AI for prospecting, call analysis, timing | `references/ai-in-sales.md` |
+| Persuasion mechanics, exact phrases | `references/psychology.md` |
+| Before a forecast or pipeline review | `checklists/deal-review.md` |
+| After any sales call | `checklists/post-call-rubric.md` |
+| "Is this still current?" | `trends.md` |
+| "What should I read to go deeper?" | `reading-list.md` |
 
-## Operating principles
+## Step 2 — Diagnosis sequence (before concluding anything)
 
-- Revenue must cover acquisition, delivery, risk and capital requirements. Growth can consume cash even with a positive lifetime margin.
-- Investigate reach, lead fit, conversion, capacity and retention before deciding the offer is weak. Positioning follows demand, capabilities and costs; mid-market is valid.
-- Sell a useful outcome with scope, dependencies and limits. Explain where the product does **not** fit. Speed, ease, certainty and outcome size are hypotheses to test.
-- State the genuine full price and terms. In live negotiation, pause for a response. Prefer conditional concessions; do not split the difference automatically.
-- Complex purchases need a buyer-validated case and committee understanding. Standard prices can be shared before discovery; quantified ROI claims require evidence.
-- Seek an agreed next action with owner/date after a call. Written review, a pause or a clear no is valid; do not invent calendar acceptance.
-- Treat no-decision as a possible loss cause, not always the main one. Reduce uncertainty without manufacturing fear, scarcity or deadlines.
-- No mandatory premium multiple, freemium, discount, guarantee stack, talk ratio or LTV/CAC threshold. Match choices to segment and economics.
-- Template fields are intentionally fillable: complete known facts, mark unknowns and identify how to verify them. Simulations are not testimonials.
+"I need more marketing" is a hypothesis, not a diagnosis. Check in this order and stop at the first broken link:
 
-## Twelve-area workflow
+1. **Reach** — Are enough of the right people seeing the offer? (impressions, list size, meetings booked)
+2. **Lead quality** — Of those who respond, how many fit the ideal profile? (qualified / total)
+3. **Conversion** — Of qualified leads, how many buy, and where do they drop? (stage-by-stage, see `references/qualification.md` stage gates)
+4. **Capacity** — Can the business deliver more without quality collapsing? (utilization, backlog)
+5. **Retention and expansion** — Do customers stay and buy more? (churn, NRR, referrals)
 
-### 0. Context and baseline
+Fixing reach when conversion is broken buys more losses. Fixing conversion when capacity is full buys angry customers. Numbers for each checkpoint: `references/metrics.md`.
 
-Collect business/model, market, buyer, objective, prices, variable delivery cost, capacity, channel/funnel data, cash constraints and proof. Define period and sample sizes. Rank bottleneck hypotheses and identify what would falsify the leading explanation.
+## Step 3 — Core principles (revised in v2)
 
-### 1. Customer, problem and qualification/discovery
+1. **A business is arbitrage with a margin of safety.** Revenue per customer must exceed the cost to acquire and serve them with room for error. Measure it: CAC, payback, contribution margin, retention by cohort.
+2. **Order of work: Offer → Price → Sales → Demand**, but diagnose first (Step 2). More demand on a weak offer exposes the weakness faster.
+3. **Trust is the asset.** The buyer carries money, time and reputational risk. Every artifact should lower that risk with evidence, not adjectives.
+4. **Positioning follows demand, cost and capacity**, not a slogan. Premium, mid-market and volume all work when the unit economics close. The "death zone" is any position where price, cost to serve and buyer expectations don't match each other.
+5. **Sell outcomes the buyer defined**, not features you built. Discover what they value before assuming speed, price or convenience is the lever.
+6. **Supply and demand set the price ceiling; cost sets the floor; alternatives set the reference.** When demand exceeds capacity, raise price or cut slots; when it doesn't, fix the offer before cutting price.
+7. **No decision is the main competitor.** Indecision loses more qualified deals than rivals do; treat it as an objection with its own playbook (`references/jolt.md`).
+8. **The market exposes vagueness.** A vague offer shows up as unqualified leads; illogical pricing shows up in negotiation; the wrong customer shows up in delivery; empty content shows up as silence.
 
-Investigate recent real situations, alternatives, attempted fixes and the desired future state. Use SPIN questions and a gap map. For simple purchases confirm problem, fit, buyer and next action. For complex deals add MEDDPICC, champion and committee. BANT is contextual information, not a universal gate. Reject a bad fit respectfully.
+## Step 4 — The 12-step map (what a full build covers)
 
-### 2. Offer
+| # | Step | Module | Closes with |
+|---|---|---|---|
+| 0 | Context intake | below | Filled intake |
+| 1 | Ideal customer, pain, research | `references/discovery.md` (Mom Test section) | Customer research notes |
+| 2 | Offer | `references/offer-pricing.md` | Offer statement |
+| 3 | Economics and pricing | `references/offer-pricing.md`, `references/metrics.md` | `templates/pricing-tier-worksheet.md` |
+| 4 | Qualification and discovery | `references/qualification.md`, `references/discovery.md` | `templates/meddpicc-scorecard.md`, `templates/discovery-call-guide.md` |
+| 5 | Narrative and proof | `references/narrative.md`, `references/delivery-retention.md` | `templates/pitch-narrative.md` |
+| 6 | Risk reduction, scarcity | `references/guarantees-scarcity.md` | Guarantee with exposure math |
+| 7 | Pipeline and outbound | `references/outbound.md` | `templates/5-touch-sequence.md` |
+| 8 | Objections, indecision, negotiation | `references/objections.md`, `references/jolt.md`, `references/negotiation.md` | `templates/business-case-onepager.md` |
+| 9 | Buying committee | `references/multithreading.md` | `templates/buying-committee-map.md` |
+| 10 | Contract and handoff | `references/delivery-retention.md` (contract section) | Contract checklist, handoff doc |
+| 11 | Delivery, retention, referrals, case studies | `references/delivery-retention.md` | 30/60/90 plan, referral moment, case study consent |
+| 12 | Content and AI leverage | `references/content.md`, `references/ai-in-sales.md` | Content plan, AI workflow |
 
-Write who, trigger, deliverable, outcome, scope, timeframe, dependencies and exclusions. Test the four value levers rather than assuming speed wins. Packages are optional and must solve distinct needs; compare with inaction and alternatives.
+Cross-cutting: `references/metrics.md` (measure every step), `references/psychology.md` (phrasing), `templates/experiment-card.md` (change one thing at a time).
 
-### 3. Price and economics
+## Context intake (ask only what is missing)
 
-Compare cost floor, contribution, capacity, customer value, substitutes and willingness to pay. Choose fixed project, time/materials, retainer, subscription, usage or performance terms deliberately. Separate potential, attributable and realizable value. With unchanged customer count, 10% at 10× and 90% at base gives **1.9× revenue**, not 2× or a fixed profit share.
+1. What is sold, to whom, who signs, who uses.
+2. Market and country (contract norms, procurement habits).
+3. Price today, real cost to deliver, hours per customer.
+4. Capacity: customers per week/month, start cadence.
+5. Where customers come from now; conversion by stage if known.
+6. Proof available: results with numbers, testimonials, cases, certifications.
+7. Deal size and cycle length (decides whether MEDDPICC and multithreading apply).
+8. Goal and constraint: more customers, more margin, less effort, recurring revenue, faster decisions.
 
-### 4. Risk reduction
+## Inviolable rules
 
-Choose proof, a bounded pilot, acceptance criteria, support, milestones or a guarantee for the actual risk. Estimate refund/rework exposure and worst-case cash need. Disclose conditions before purchase; do not delay value merely to outlast a refund period.
+1. Every call ends with a scheduled next step, or the deal is marked at risk.
+2. No price goes out without a quantified pain or a business case (`templates/business-case-onepager.md`).
+3. Discounts are traded, never given: "I can do X if you can do Y."
+4. Enterprise deals are never single-threaded.
+5. Treat "no decision" before treating the competition.
+6. Scarcity and deadlines are real or absent. Invented urgency is a trust withdrawal you cannot repay.
+7. Proof is documented and authorized. Label simulations as simulations.
+8. One variable per experiment, with a stop rule.
 
-### 5. Real limits and timing
+## Funnel stage gates (objective criteria to advance)
 
-Verify capacity, start dates and expiring offers with owner/date. Communicate the reason and next available alternative. Renaming a recurring promotion is not automatically authentic urgency. Buyer readiness can outweigh seller timing.
+| Stage | Exit criterion |
+|---|---|
+| Lead | Fits profile on 2 of 3: segment, role, trigger signal |
+| Qualified | Pain stated in their words + quantified impact + a named decision process |
+| Discovery done | MEDDPICC scorecard with no red on Pain, Champion, Decision Process |
+| Proposal | Business case accepted by champion; economic buyer identified and reached |
+| Negotiation | Written criteria met; paper process (legal, security, procurement) mapped with dates |
+| Closed | Signed + kickoff scheduled + handoff doc sent |
 
-### 6. Sales, committee, negotiation and decision
+## Output contracts
 
-Define evidence-based stage exits. Recommend live walkthroughs for complex proposals while supporting written/procurement review. Diagnose objections; use JOLT where indecision is supported. Map decision roles, align criteria and give the champion a forwarding-ready case. Negotiate within authority, exchange concessions and record revised terms. A sale needs relevant buyer approval and agreement, not a verbal hint.
+**Quick review:** 1) verdict in one line; 2) the corrected artifact; 3) a change log, one reason per change; 4) one thing to test next.
 
-### 7. Commercial agreement
+**Bottleneck diagnosis:** 1) the five checkpoints with the number or "unknown" for each; 2) the broken link; 3) one experiment card; 4) what to measure in 30 days.
 
-Prepare scope, acceptance, dependencies, payment, changes, cancellation, data/IP and guarantee terms for appropriate local review. Identify unresolved terms and authorized signers. A commercial checklist is not enforceable legal advice.
+**Full build:** the steps that apply from the 12-step map, each closed with its template, then a 30-day plan with owners and metrics. Never pad with steps that don't apply.
 
-### 8. Referrals
+## What this skill refuses to do
 
-Ask after a demonstrated useful result, with a specific fit description and optional introduction text. Obtain permission before sharing contact details. Track quality and fulfillment; disclose incentives and respect declined requests.
+- Use BANT as a gate (keep budget and timing as signals only).
+- Write "hope you're well" or "I'd like to introduce our company" openers.
+- Present features and benefits as a pitch structure.
+- Recommend email volume without deliverability setup.
+- Stack guarantees by default or promise outcomes outside the seller's control.
+- Quote percentages without a source and a population ("97% aren't ready to buy" is retired).
+- Give motivational lines in place of an action.
 
-### 9. Proof and customer learning
+## Maintenance
 
-Capture baseline, measured change, period, attribution, limitations and publication approval. Publish actual cases or labeled simulations. Results are not universal promises; do not claim "incidents prevented" without a defensible counterfactual.
-
-### 10. Website, content and AI assistance
-
-Prioritize buying-page information and decision-support content according to the bottleneck. Build reach when distribution is the constraint. Use AI for sourced drafts, reviewed call summaries and testable timing hypotheses. Audit assistant descriptions with dated prompts and observed outputs; simulated personas do not replace customers.
-
-### 11. Customer selection, delivery and learning loop
-
-Choose projects using fit, contribution, risk, capacity, concentration and learning. Agree the first useful result and handoff; use 30/60/90 when the cycle fits. For recurring models track cohort retention, churn, NRR and expansion; fix harmful acquisition/delivery before increasing volume. End with an experiment, owner, budget and continue/stop criteria.
-
-## Output and quality gate
-
-Adapt to mode. Complete-engine output covers applicable customer/offer, pricing math, qualification/committee, pipeline/objections, negotiation, risk/limits, agreement, delivery/retention, referrals/proof, content/AI and measurement. Mark non-applicable areas with a reason rather than forcing thirteen outputs. Include completed templates and actions with owner, date, metric, acceptance criterion and dependency.
-
-Recompute math; distinguish margin/markup; check denominators/periods; trace claims to evidence; show alternative explanations; confirm proposal/guarantee consistency. Use [post-call rubric](checklists/post-call-rubric.md) for call reviews. A playbook does not authorize sending messages, publishing customer proof or accepting terms.
-
-Read [trends.md](trends.md) for dated changes, [sources](references/sources.md) for attribution, [reading by section](references/reading-by-section.md) for study, [numerical examples](examples/unit-economics.md) for calculations and [changelog](CHANGELOG.md) for migration. Review sources every six months or sooner when a material rule changes. A review date records a check, not a promise of continued currency.
+See `CHANGELOG.md`. Trends and benchmarks age fastest: re-verify `trends.md` and the heuristics in `references/metrics.md` at each review date. Sources per section: `reading-list.md`.

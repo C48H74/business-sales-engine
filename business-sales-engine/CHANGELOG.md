@@ -2,17 +2,30 @@
 
 ## 2.0.0 — 2026-10-13
 
-English edition only. PT/ES remain v1; existing illustrations/license retained. Replaced the single-file rule list with an orchestrator and selectively loaded modules, fillable templates, fifteen diagnostic objection patterns, checklists and labeled examples.
+Restructured from a single file into an orchestrator plus modules.
 
-- Preserved areas 0–11; added structured discovery/qualification after area 1, committee/indecision/negotiation in area 6, and delivery/retention/experiments across the engine.
-- Added focused-review, bottleneck-diagnosis and complete-engine output modes.
-- Added SPIN/gap interviews, MEDDPICC evidence, JOLT, conditional negotiation, multithreading, narrative, founder sales and PLG/PQL.
-- Added operating economics, contribution/markup/capacity, cohort retention, churn, GRR/NRR, CAC/payback and qualified LTV assumptions.
-- Corrected 10% at 10× to 1.9× revenue under stated assumptions; removed a fixed premium-profit share, mandatory price multipliers and mandatory premium tier.
-- Replaced universal offer/positioning/speed rules, guarantee stacking, live-only proposals, urgency responses to hesitation and the unsupported 97% claim with evidence-based choices.
-- Added honest proof/limitations, handoff/change control, AI call/personalization evaluation and dated assistant-brand audits.
-- Added `trends.md` reviewed 2026-10-13, a semiannual reminder and source/reading register. No automatic review task installed.
+**Structure**
+- `SKILL.md` is now an orchestrator: three modes (quick review, bottleneck diagnosis, full build), a decision tree, a diagnosis sequence and output contracts.
+- 17 reference modules, 9 fillable templates, objection library (15), 2 checklists, 2 examples, trends file, reading list.
+- Frontmatter: trigger words, `version`, `last_reviewed`, `review_cadence`, license.
 
-## 1.x — preserved history
+**Corrections**
+- Tier math fixed: 10% of buyers at 10× price adds 1.9× base revenue (0.9 + 1.0), not 2×.
+- Removed the unsupported "75% profit" claim.
+- Removed the unsupported "97%" statistic.
+- Premium tiers are optional and only for distinct buyer types; ranked by contribution per senior hour.
+- Guarantees: no default stacking; compute expected claim cost first.
+- Live proposal walk-through recommended only for complex or high-value sales.
+- Pricing anchored on cost floor, buyer reference and value ceiling, with willingness-to-pay research.
 
-Original EN/PT/ES skills synthesized offer, pricing, risk reduction, sales, agreements, referrals, proof and content. The prior English content remains available in Git history. Migrating English callers should use the applicable mode rather than assume thirteen outputs or identical content across languages.
+**Added**
+- MEDDPICC, Gap Selling, SPIN, Mom Test, JOLT, Voss-style negotiation, multithreading, business case, outbound deliverability, signal-based selling, founder-led sales, PLG/PQL, AI-in-sales guidance.
+- Stage gates, deal review red flags, post-call rubric.
+
+**Removed / cut**
+- Manipulative urgency and fake scarcity tactics.
+- Generic motivational filler and unverifiable statistics.
+
+## 1.0.0 — earlier
+
+Single-file skill (EN, PT, ES) distilled from the source transcripts.

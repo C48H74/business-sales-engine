@@ -1,11 +1,43 @@
-# Founder-led learning before scale
+# Founder-led sales
 
-Use [diagnostic](../templates/engine-diagnostic.md), [discovery](../templates/discovery-call-guide.md) and [experiment](../templates/experiment-card.md). This is an original operating playbook, not a claim that founders must sell indefinitely.
+Load when a founder is selling, or deciding when to hire the first salesperson.
 
-Pick one reachable segment and triggering situation with problem evidence, experience, access and delivery capability. Bound interviews/opportunities by time and access; no universal count proves fit. Research recent behavior. In sales state what exists, what is manual and what is unavailable. A paid pilot must have independent useful scope and exit criteria.
+## Founder sells first (Kazanjy, *Founding Sales*)
 
-Track hypothesis → conversations → offer → commitment → delivery → measured result → revision. Enthusiasm, free signup and nonbinding letters are weaker than use and viable renewal. Record objections, stage exits, variants and actual fulfillment effort.
+Nobody knows the product, the market or the pain like the founder, and nobody else can change the product after a lost deal. Hiring a rep before the founder has closed deals repeatedly outsources learning you don't have yet.
 
-Founder relationships can win deals others cannot reproduce; document the access/expertise involved. Before hiring or automating, establish the reusable segment/trigger, offer, qualification, cycle, costs and teachable delivery. Hire for the actual bottleneck.
+Rule of thumb: the founder closes the first **10–20 deals** personally, with a repeatable story (same segment, same pain, same offer), before hiring. If the 20 deals are all different, there is no playbook to hand over.
 
-Narrow/stop if customers need another product, pilots consume unbounded labor or price cannot fund service. A manual high-value service can be valid; do not call it scalable SaaS just because it uses software. Review the [service case](../examples/service-engine-case.md).
+## The sales learning loop
+
+Each conversation feeds four lists:
+1. **Objections heard** → `objections/library.md`, with the answer that worked.
+2. **Questions that opened pain** → `references/discovery.md` question bank.
+3. **Product gaps named by buyers** → roadmap, tagged by deal value lost.
+4. **Signals that preceded good deals** → `references/outbound.md` signal list.
+
+Review weekly. The playbook is these four lists plus the narrative that emerged.
+
+## Founder advantages (use them, don't apologize)
+
+- **Access:** buyers take a founder's call. Say so: "I'm the founder; I'm doing these calls myself because I want to get this right."
+- **Speed:** you can change scope, price and product in the meeting.
+- **Credibility on the problem:** you built this because the problem is real.
+
+Founder traps: talking about the product instead of asking about the problem; discounting because you want the logo; promising features to close.
+
+## When and how to hire
+
+Hire when you can write: the ideal customer, the trigger signals, the discovery questions, the top 10 objections with answers, the pricing logic, and the stage gates. That is the onboarding document.
+
+First hire: someone who can run the playbook and improve it, not a "closer" who needs leads handed over. Specialization (SDR / AE split, Ross's *Predictable Revenue* model) only makes sense when volume justifies it, typically after the first rep is consistently hitting a number.
+
+## Daily number
+
+Even for founders: a prospecting minimum per day (calls, emails, intros asked). Pipeline dies silently when the founder is in delivery.
+
+## Anti-patterns
+
+- Hiring a VP of Sales to "figure out sales".
+- Treating every deal as unique, so nothing is reusable.
+- Stopping prospecting when the first customers arrive.

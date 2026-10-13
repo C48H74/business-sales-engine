@@ -1,15 +1,71 @@
-# Handoff, first useful result and retention
+# Contract, handoff, delivery, retention, referrals and proof
 
-Fill [onboarding plan](../templates/onboarding-30-60-90.md) and [agreement checklist](../checklists/contract-handoff.md). Delivery is part of the engine, not an appendix after selling.
+Load after the yes, and whenever churn, scope creep, referrals or case studies are the topic.
 
-Before signing, verify scope, promises, acceptance, staffing, dependencies and timing with delivery. The handoff contains the buyer's problem, baseline, success definition, exclusions, committee/implementation contacts, agreed terms, risks and unresolved matters. Unsupported salesperson promises must be corrected before onboarding.
+## Contract (always written)
 
-Define the first useful result and its evidence. For a short project, use milestones or days rather than forcing a ninety-day plan. For longer services, 30/60/90 can structure setup, early value and review. Every checkpoint has owner, date, dependency, acceptance evidence and escalation path.
+- Scope: deliverables, what's excluded, acceptance criteria.
+- What the client provides (access, people, data, decisions) and by when; what happens if they don't.
+- Price, payment schedule, late-payment terms.
+- Change request process (see scope control).
+- Responsibilities and liability limits, consistent with the guarantee.
+- Exit terms for both sides.
+- IP and confidentiality.
+Have a local lawyer review once; reuse.
 
-Scope changes need an impact assessment and approval covering price/time/quality. Do not hide extra work inside an unlimited guarantee or classify every reasonable defect fix as a paid change. Match treatment to the agreement.
+## Sales → delivery handoff
 
-Recurring review: original goal, delivered work, observed result, limitations, customer adoption, open risks and next decision. Separate adoption and useful value from login frequency. Ask departing customers about actual reasons and alternatives; avoid forcing a retention sales call before cancellation.
+A one-page document, sent to the client and the delivery team on the day of signature:
+- Pain in the client's words, with numbers.
+- What was promised (and what was explicitly not).
+- Decision criteria they used; who the stakeholders are (`templates/buying-committee-map.md`).
+- Risks mentioned during the sale.
+- First milestone and date.
+Most early churn is a sale that delivery never heard about.
 
-Track cohort retention, actual contribution and support load. Expand when a genuine new need and proven capacity exist. Renewal based on dependence or fear of losing access is fragile; communicate export/cancellation terms transparently.
+## Time to first value
 
-Feedback loop: send recurring failures and mismatched promises back to qualification, offer and onboarding. A rise in acquisition with deteriorating quality is a reason to recheck capacity. See [SaaS case](../examples/saas-plg-case.md) and [service case](../examples/service-engine-case.md).
+Define the first result the client will notice and get there as fast as possible (a diagnostic, a quick win, a working integration). Measure days from signature to that moment. It predicts retention better than satisfaction surveys.
+
+## 30 / 60 / 90
+
+- **30:** onboarding complete, first value delivered, success metric baselined.
+- **60:** first measured progress against baseline; adjust plan.
+- **90:** results review with the economic buyer, not just the champion; expansion or referral conversation if warranted.
+
+## Scope control
+
+- Every request outside scope gets a written note: "This is outside the agreed scope. Options: (a) swap for [item], (b) add at [price], (c) defer." No silent yes.
+- Track scope changes; they are the leading indicator of margin loss.
+
+## Periodic reviews (quarterly or so)
+
+Not a sales pitch: what was done, what was prevented, what's next, decisions needed from them. Bring the numbers. These meetings are where renewals, expansions and referrals happen naturally.
+
+## Churn signals (act in the week they appear)
+
+Usage drop, champion leaves, invoices paid late, unanswered reviews, "we're reorganizing", a competitor's name in conversation. Each gets a call, not an email.
+
+## Referrals: be referable, then ask systematically
+
+1. **Referability** comes from the experience: fast first value, kept promises, visible results.
+2. **Moment to ask:** right after a visible win or a positive review meeting. Script: "Who else do you know facing [the problem we just solved]? I'd like to help them the same way; could you introduce us?"
+3. **Make it easy:** a two-line forwardable message, a specific description of who you help.
+4. **Close the loop:** tell the referrer what happened; thank them concretely.
+Track referral rate (`references/metrics.md`).
+
+## Case studies and proof
+
+- **Normalize results talk from day one:** baseline at kickoff, metric at 30/60/90, so the case writes itself.
+- **Ask to feature, not to "do a case study":** "Can we feature your team's result?" Address fears explicitly: time (one 30-minute call), control (they approve every word), exposure (anonymized option), internal approval (you provide a one-page pitch packet).
+- **Documented and authorized:** numbers from their systems, written consent, approved draft. No consent, no case.
+- **Real vs. simulated:** if you show a hypothetical, a demo environment or a projected result, label it. A simulation presented as a client result is a trust and legal problem.
+- **Radical transparency:** include a "where this didn't work / who this isn't for" section in proposals and on the site. It raises credibility of the rest.
+
+## Anti-patterns
+
+- Verbal scope.
+- Handoff by forwarding an email thread.
+- Waiting for the client to notice value.
+- Asking for referrals at the end of the contract instead of after the first win.
+- "Results may vary" in small print instead of honest labels.

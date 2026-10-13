@@ -1,18 +1,55 @@
-# Narrative and useful demos
+# Narrative and positioning
 
-Fill [pitch narrative](../templates/pitch-narrative.md). Raskin informs strategic change, StoryBrand customer-centered clarity, and Challenger relevant insight/tailoring [S11/S12/S13](sources.md). Use a useful lens; do not stack frameworks into a speech.
+Load for pitches, demos, decks, website hero sections. Closes with `templates/pitch-narrative.md`.
 
-Choose a genuine change/trigger, current consequence, desired state and credible path. A workflow problem is enough if there is no market shift; do not invent a "new era" for urgency.
+## The rule
 
-1. State the buyer-confirmed situation and invite correction.
-2. Explain one supported insight about mechanism or tradeoffs.
-3. Describe useful future state and success measure.
-4. Show a short critical workflow, including exceptions/failure.
-5. Show relevant evidence, limits, implementation and full terms.
-6. Recommend an action tied to remaining uncertainty.
+The customer is the hero; you are the guide. Pitches fail when the company is the hero ("we were founded in… our platform…"). Three frameworks, one principle:
 
-Match proof to role: workflow for users, actual capabilities for IT, assumptions/cash impact for finance. Features connected to criteria are useful; outcome language without mechanisms can also be empty.
+## Strategic narrative (Raskin), 5 acts
 
-Example: "Your log shows six hours assembling each report. Here is approval and exception handling. We can reduce assembly effort only with agreed input formats. We do not automate engineering judgment. A pilot would measure time and error rate before rollout."
+1. **A change in the world** that is undeniable and bigger than you. "Buyers now research before talking to vendors."
+2. **Winners and losers** created by that change. "Teams that adapt win the deal before the first call; the rest compete on price."
+3. **The promised land**: what the winners get, described as a destination, not as your product.
+4. **Obstacles** to getting there, and the features/magic that remove each obstacle (here, finally, your product).
+5. **Proof** that you've taken others there.
 
-Label demo data synthetic unless authorized. Separate working features from roadmap. Never promise unavailable functionality to resolve an objection. End with correction and a decision question, not a feature dump.
+Use for: first meetings, decks, founder pitches, website "why now" sections.
+
+## StoryBrand (Miller), 7 beats
+
+A **character** (the customer) has a **problem** (external, internal, philosophical) and meets a **guide** (you) with **a plan** who **calls them to action** and shows them **success** and the **failure** they avoid.
+
+Use for: homepage, one-pagers, email sequences. Checklist: does every sentence put the customer as subject?
+
+## Challenger (Dixon & Adamson): Teach, Tailor, Take control
+
+CEB's research behind the book attributes roughly half of customer loyalty in B2B to the sales experience itself rather than product or price. The top-performing profile:
+- **Teach:** bring an insight that reframes how the buyer sees their own business ("you're measuring the wrong thing"). Requires real research; in outbound this is hard, in complex deals it's decisive.
+- **Tailor:** the same insight sounds different to the CFO and to the ops lead.
+- **Take control:** of the process, not the person. Push back on unrealistic timelines, name the elephant, steer to the economic buyer.
+
+Insight test: does it make the buyer slightly uncomfortable and then curious? If it's something they'd nod along to, it's not an insight.
+
+## Frames and status (Klaff), for demos
+
+- Set the **frame** early: "In the next 20 minutes I'll show you three things, then I want your honest reaction, including if it's a no."
+- Don't chase approval; present as a peer with a limited window.
+- Lead with the **big idea**, not the features list. Show the outcome, then the mechanism.
+
+## Demo structure
+
+1. Restate their problem in their words (30 seconds).
+2. Show the end state first (the report, the result, the dashboard they'd see).
+3. Show how it gets there, only the steps that matter to them.
+4. Pause for questions after each section; capture objections live.
+5. Close with next step and who should be in it.
+
+Never demo without discovery; a generic demo is a feature tour.
+
+## Anti-patterns
+
+- Company history before the customer's problem.
+- Features and benefits as the backbone.
+- An insight the buyer already agrees with.
+- A demo that shows everything.

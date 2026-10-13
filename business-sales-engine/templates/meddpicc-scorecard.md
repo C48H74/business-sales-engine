@@ -1,24 +1,25 @@
-# MEDDPICC evidence scorecard — fillable
+# MEDDPICC scorecard
 
-Account/deal: [ ] · Stage: [ ] · Seller/buyer owners: [ ] · Review date: [ ]
+Deal: ______________________ Value: ________ Stage: __________ Owner: ________ Updated: ________
 
-Scores: **0 unknown; 1 buyer-reported; 2 documented; 3 validated by accountable owner.** Scores measure evidence, not win probability. Unknowns and contradictions cannot be hidden by a total.
+Scoring: **Green** = evidence in writing or from two people. **Yellow** = said once by one person. **Red** = assumed or unknown.
 
-| Element | Score | Evidence / source / date | Buyer owner | Gap / contradiction | Next verification / owner / date |
-|---|---|---|---|---|---|
-| Metrics | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Economic buyer | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Decision criteria | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Decision process | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Paper process | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Pain/implications | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Champion | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Competition/status quo | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Letter | What we know (evidence, quote, source) | Gap / what's missing | Next action to close the gap | Score |
+|---|---|---|---|---|
+| **M** Metrics — size of the problem and of the fix, with unit and period | | | | |
+| **E** Economic buyer — name; have we met them? | | | | |
+| **D** Decision criteria — written list; who wrote it | | | | |
+| **D** Decision process — steps, people, dates, incl. legal/security/procurement | | | | |
+| **P** Pain — in their words, quantified | | | | |
+| **I** Implications — consequences they stated for the business and for themselves | | | | |
+| **C** Champion — name; passed which test (org chart / forwarded doc / set up EB meeting / shared risks)? | | | | |
+| **C** Competition — alternatives incl. status quo and in-house; their perceived strengths | | | | |
 
-Mandatory unmet criterion: [ ] · Feasible remediation: [ ] · Champion's demonstrated action: [ ]
+**Overall:** ☐ Advance ☐ Hold ☐ Disqualify
 
-Decision: [advance / hold / consented nurture / stop] · Rationale independent of total: [ ]
+**Rules**
+- Any red on Pain, Champion or Decision process: the deal does not advance to proposal.
+- No contact with the economic buyer by proposal stage: at risk.
+- Update after every touch; the date above must be within 14 days or the deal is stale.
 
-Stage exit evidence: [ ] · Mutually agreed next step/date: [or explicit pause/refusal]
-
-For a simple transaction reduce to problem, fit, authority, feasibility and action. See [qualification](../references/qualification.md).
+**Next step (date, who, what):** ______________________________________________

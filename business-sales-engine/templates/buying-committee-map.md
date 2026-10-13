@@ -1,23 +1,25 @@
-# Buying committee map — fillable
+# Buying committee map
 
-Account/problem: [ ] · Owner/date: [ ] · Buyer's preferred engagement route: [ ]
+Account: __________ Deal: __________ Updated: ________
 
-| Role | Person/team, only if known | Outcome/criteria | Authority evidence | Stance / concern | Next action / owner / date |
-|---|---|---|---|---|---|
-| Problem owner | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Economic buyer | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Users | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Technical/security | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Procurement/legal | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Implementation owner | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Champion | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Name | Title | Role (EB / Champion / Tech / Finance / Legal / User / Blocker / Influencer) | Attitude (For / Neutral / Against) | Influence (H / M / L) | What they care about | Last contact (date, channel) | Next action (what, who, when) |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
 
-One person may occupy several roles. Unknown is preferable to an invented name. Champion advocacy observed: [ ]
+## Checks
+- [ ] Economic buyer identified **and** met.
+- [ ] Champion passed at least test 3 (set up a meeting with the EB) — `references/multithreading.md`.
+- [ ] At least 3 engaged contacts across different functions.
+- [ ] Every "Against" with high influence has a plan.
+- [ ] Asked "who else has an opinion on this?" in the last call.
+- [ ] Problem statement and decision criteria agreed in writing by the committee.
 
-Shared problem: [ ] · Agreed success criteria: [ ] · Disagreement requiring resolution: [ ]
-
-Forwarding-ready case/approved artifact: [ ] · Access/engagement gaps: [ ]
-
-Decision forum/process: [ ] · Confirmed evaluation owner/date: [ ]
-
-Do not equate multiple contacts with consensus. See [multithreading](../references/multithreading.md).
+## Threads to open (with the ask and the reason)
+1. ______________________
+2. ______________________
+3. ______________________

@@ -1,28 +1,67 @@
-# Discovery call guide — fillable
+# Discovery call guide (30 or 45 minutes)
 
-Account: [ ] · Participants/roles: [ ] · Date/duration: [ ] · Research or sales: [ ]
+Prospect: __________ Role: __________ Signal/trigger: __________ Date: ______
 
-Known facts and sources: [ ] · Problem hypothesis, not assumed fact: [ ]
+## Before the call (10 minutes)
+- [ ] One specific, true, recent fact about them: ______________________
+- [ ] Hypothesis of their pain: ______________________
+- [ ] Three Implication questions prepared for that hypothesis
+- [ ] Decide the next step you will propose: ______________________
 
-Opening: "We have [time]. I suggest understanding [workflow/problem], then deciding whether [appropriate next action] makes sense. What would you like to add?"
+## Agenda (say it out loud)
 
-| Lens | Adapted question | Answer / quote / source | Follow-up |
-|---|---|---|---|
-| Situation | Walk me through the last instance of [job]. | [ ] | [ ] |
-| Problem | Where did that create friction? What have you tried? | [ ] | [ ] |
-| Implication | Who was affected? How did you measure it? | [ ] | [ ] |
-| Need-payoff | What useful result would change that? | [ ] | [ ] |
-| Gap | What keeps the current state from the target? | [ ] | [ ] |
-| Buying path | Who owns criteria, funding and implementation? | [ ] | [ ] |
+| Minute (30 / 45) | Block | Goal |
+|---|---|---|
+| 0–3 / 0–5 | Open | "What prompted the call?" Set the frame: questions first, then I'll tell you if and how we can help, and you tell me if it's a no. |
+| 3–8 / 5–12 | Situation (max 3 questions) | Facts you couldn't find yourself |
+| 8–15 / 12–22 | Problem | Where it breaks, what they tried, why it stopped |
+| 15–22 / 22–32 | Implication | Cost in hours, money, risk; who feels it; what happens if nothing changes |
+| 22–25 / 32–37 | Need-payoff | Their words for the value; how they'd measure success |
+| 25–28 / 37–42 | Process | How they bought last time; who's involved; criteria; dates; alternatives |
+| 28–30 / 42–45 | Close | Summarize gap; propose a specific next step with date and attendees; ask who else should join |
 
-Current state: [ ] · Target state: [ ] · Mechanism/hypothesis: [ ] · Measured impact: [ ]
+## Questions actually asked (tick, add quotes)
 
-Fit/exclusions: [ ] · Alternatives/status quo: [ ] · Success criterion: [ ]
+Situation
+- [ ] ______________________
+- [ ] ______________________
 
-Reflect: "My understanding is [confirmed summary]. What did I miss?"
+Problem
+- [ ] ______________________
+- [ ] ______________________
+- [ ] ______________________
 
-Next action: [ ] · Purpose: [ ] · Buyer/seller owners: [ ] · Agreed date: [ ] · Or pause/no: [ ]
+Implication
+- [ ] ______________________
+- [ ] ______________________
+- [ ] ______________________
 
-Unknowns/verification: [ ] · Recording/transcript permissions, if relevant: [ ]
+Need-payoff
+- [ ] ______________________
+- [ ] ______________________
 
-Use questions naturally; skip facts already known. See [discovery](../references/discovery.md).
+Process / alternatives
+- [ ] ______________________
+- [ ] ______________________
+
+## Capture
+
+| Item | Notes |
+|---|---|
+| Pain in their words (quote) | |
+| Current state numbers | |
+| Target state numbers | |
+| Cost of the gap (per month / year) | |
+| Root cause as they see it | |
+| People and roles named | |
+| Decision criteria stated | |
+| Decision process and dates | |
+| Alternatives named (incl. status quo) | |
+| Their commitments | |
+| My commitments | |
+| **Next step (date, attendees)** | |
+
+## After the call (5 minutes)
+- [ ] Update `meddpicc-scorecard.md`
+- [ ] Score the call with `checklists/post-call-rubric.md`
+- [ ] Send a recap email: their pain in their words, the numbers, the agreed next step, one question you didn't get to

@@ -1,20 +1,55 @@
-# Pitch narrative — fillable
+# Pitch narrative
 
-Audience/role: [ ] · Decision: [ ] · Duration/format: [ ] · Evidence status: [ ]
+Fill both versions; use the 5-act for first meetings and decks, StoryBrand for the homepage and one-pagers.
 
-1. **Trigger/current state:** [verified change or specific buyer situation; source/date].
-2. **Problem/insight:** [mechanism, impact and alternative explanation].
-3. **Useful future state:** [customer goal and measurable criterion].
-4. **Path:** [deliverable/workflow, dependencies, implementation effort].
-5. **Demonstration:** [critical job; working capabilities; exception/failure path; synthetic/authorized data label].
-6. **Proof and boundaries:** [relevant evidence; exclusions; who should not buy; where alternatives suffice].
-7. **Commercial terms:** [full price, scope, payment, optional choices].
-8. **Decision action:** [remaining uncertainty, next evaluation/action, owner/date].
+## Version A — 5 acts (strategic narrative)
 
-Buyer-facing opening: "You described [confirmed situation]. The issue appears to be [hypothesis]. Is that accurate before we discuss options?"
+**1. The change in the world** (undeniable, bigger than you)
+______________________________________________
 
-Role-specific emphasis: users [ ]; finance [ ]; IT/security [ ]; procurement [ ].
+**2. Winners and losers** (what the change rewards and punishes)
+Winners: ______________________
+Losers: ______________________
 
-Unsupported claims to remove: [ ] · Buyer correction after review: [ ]
+**3. The promised land** (destination, in the buyer's terms, no product yet)
+______________________________________________
 
-Use a strategic change story only when a real change exists. See [narrative](../references/narrative.md).
+**4. Obstacles and how we remove them** (here the product appears)
+| Obstacle on the way to the promised land | What removes it |
+|---|---|
+| | |
+| | |
+| | |
+
+**5. Proof** (named, numbered, authorized — `references/delivery-retention.md`)
+- ______________________
+- ______________________
+
+**Insight test:** Act 1–2 should make the buyer slightly uncomfortable, then curious. If they would nod along, rewrite.
+
+## Version B — StoryBrand beats
+
+| Beat | Fill |
+|---|---|
+| Character (the customer) wants… | |
+| External problem | |
+| Internal problem (how it makes them feel) | |
+| Philosophical problem (why it's wrong that they face this) | |
+| The guide (you): empathy + authority in one line each | |
+| The plan (3 steps) | 1. 2. 3. |
+| Call to action (direct) | |
+| Success (what life looks like after) | |
+| Failure avoided | |
+
+## Homepage hero (from Version B)
+Headline (what they get): ______________________
+Subhead (how, for whom): ______________________
+CTA: ______________________
+Proof line: ______________________
+
+## Demo outline (after discovery only)
+1. Their problem in their words (30 s)
+2. The end state first
+3. How it gets there — only the steps they care about
+4. Questions after each section
+5. Next step, date, attendees

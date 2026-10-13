@@ -1,19 +1,26 @@
-# Commercial experiment — fillable
+# Experiment card
 
-ID/date/owner: [ ] · Decision to inform: [ ]
+One variable. One metric. A stop rule. An owner.
 
-Hypothesis: If [change] for [segment/trigger], then [outcome] because [mechanism].
+| Field | Fill |
+|---|---|
+| **Hypothesis** | If we [change one thing], then [metric] will move from [baseline] to [target] because [reason]. |
+| **Bottleneck it addresses** | Reach / Lead quality / Conversion / Capacity / Retention (pick one) |
+| **Variable changed** | |
+| **Everything held constant** | |
+| **Primary metric** | |
+| **Guardrail metric** (must not get worse) | |
+| **Sample needed** | [n leads / calls / weeks] — enough to see the effect, not a dozen |
+| **Budget (money, hours)** | |
+| **Owner** | |
+| **Start / review date** | |
+| **Continue if** | metric ≥ ______ and guardrail OK |
+| **Stop if** | metric < ______ by review date, or guardrail breached |
+| **Result** | |
+| **Decision** | ☐ Scale ☐ Iterate ☐ Kill |
+| **What we learned** | |
 
-Evidence / alternative explanation: [ ]. Baseline/source/period: [ ].
-
-Design: [comparison/holdout/sequential pilot] · Eligible cohort and exclusions: [ ].
-
-Primary outcome, denominator and observation window: [ ]. Leading indicator, if needed: [ ].
-
-Budget/time/capacity cap: [ ]. Guardrails: [cash, quality, delivery, complaints, permission].
-
-Continue criterion: [numeric or evidence-based threshold and rationale]. Stop criterion: [ ]. Inconclusive criterion: [sample/window/data quality]. Review date: [ ].
-
-Result: [counts, uncertainty, actual spend/effort]. Confounders: [ ]. Decision: [continue / revise / stop / collect more evidence]. Owner/next date: [ ].
-
-Do not call an uncontrolled before/after comparison causal proof. One small test should change one important decision, not validate the entire business. See [diagnosis](../references/diagnosis.md).
+## Rules
+- Baseline measured before the change, not remembered.
+- Don't run two experiments on the same funnel stage at once.
+- Record kills; they're half the value.

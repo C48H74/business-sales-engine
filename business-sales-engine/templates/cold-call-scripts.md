@@ -1,26 +1,44 @@
-# Cold-call scripts — fillable
+# Cold call scripts
 
-Business signal/source/date: [ ] · Contact role/channel eligibility: [ ] · Purpose: [ ]
+Rules: sound like a person, not a script; ask permission; one hypothesis, one question; ask for the meeting, then silence.
 
-## Permission and relevance
+## Opener A — Permission
+"Hi [first name], [your name] from [company]. I know I'm calling out of the blue. Can I take 30 seconds to say why, and you decide whether we keep going?"
 
-"Hi [name], I'm [identity] from [business]. I'm calling about [verified relevant context]. Is now a reasonable time for a brief question, or should I leave it here?"
+(Yes) → Hypothesis.
+(No / busy) → "Fair. Is there a better 10 minutes this week, or should I just send two lines by email?"
 
-If permission: "Teams handling [specific job] sometimes encounter [tentative friction]. Is that relevant in your workflow, or not?"
+## Opener B — Signal
+"Hi [first name], [your name]. I saw [signal: you're hiring a X / you just launched Y]. That's usually when [problem] shows up. Is that happening, or am I off?"
 
-If relevant: "What happened the last time?" → "What would be useful to change?" → "Who would be involved in evaluating that?" Do not force enterprise questions into a simple transaction.
+## Opener C — Honest reason (referral or content)
+"Hi [first name], [your name]. [Referrer] suggested I call / I read your post on [topic]. I work with [role] on [problem]; wanted to ask one question if you have a minute."
 
-## Common paths
+## The hypothesis (15 seconds)
+"Teams your size, when [signal], usually run into [problem]: [one concrete symptom]. Most either [workaround A] or [workaround B], and both cost [consequence]. Does that match what you're seeing?"
 
-- Wrong person: "Who, if anyone, is the right role for this?" Accept no referral.
-- Busy: ask for a preferred route/time; record only actual agreement.
-- Existing supplier: "If it's working well, replacement may not help. Is there any unresolved gap?"
-- Not relevant/no: "Understood. I'll close this out." Respect account-wide/channel suppression.
+## Listen, then one Implication question
+"When that happens, who ends up absorbing it? What does it cost in [hours / delays / revenue]?"
 
-Close: "Would [specific useful action] make sense? It would cover [scope], take [time] and involve [roles]." Confirm owner/date or written review, not a forced calendar meeting.
+## The ask
+"Worth 15 minutes next week to compare how [similar company] handled it? I'll show the numbers and you tell me if it applies. Tuesday 10 or Thursday 3?"
+Then stop talking.
 
-## Voicemail, only when appropriate
+## Objection handlers (short)
 
-"[Name], [identity] at [business], calling about [verified context]. If [specific job] is relevant, you can reach me at [business contact]. No response needed if this is outside your priorities."
+| They say | You say |
+|---|---|
+| "Send me an email" | "Will do. So I send the right thing — is [problem] something you're dealing with, or not really?" |
+| "We're fine / we have a vendor" | "Good to hear. What would have to go wrong with the current setup for you to look again?" |
+| "Not interested" | "Understood. Can I ask one thing so I don't call again for nothing: is it the timing or the problem itself?" |
+| "How did you get my number?" | "[Honest source]. If you'd rather I didn't call, say so and I won't." |
+| "No budget" | "Makes sense. If the problem were costing [consequence], would it be worth a 15-minute look at the numbers?" |
 
-No invented rapport, hidden identity or false urgency. Follow applicable calling/recording rules; this draft does not authorize calls. See [outbound](../references/outbound.md).
+## Voicemail (15 seconds)
+"[First name], [name] from [company]. Calling about [problem] after seeing [signal]. I'll send a short email so you can decide if it's relevant. [Number]."
+
+## Don't
+- Start with "How are you today?"
+- Read a company intro.
+- Pitch features.
+- Keep going after a clear no.

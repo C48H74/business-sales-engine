@@ -1,59 +1,95 @@
-# Motor Comercial para Negócios — Skill para Claude
+# Business Sales Engine — Claude Skill
 
-Skill em português que ensina o Claude a desenhar ou revisar a parte comercial de qualquer negócio: oferta, preço e camadas, garantias, escassez e urgência, processo de venda, contrato, indicações, estudos de caso e conteúdo.
+**English** · [Português](#português) · [Español](#español)
 
-Serve para serviços (consultoria, agência, TI, clínica, oficina, freelancer), produtos digitais, SaaS, produtos físicos e comércio local.
+![Commercial Engine](assets/commercial-engine-overview.png)
 
-## O que a skill cobre
+A Claude skill that designs or reviews the commercial side of any business: offer, pricing and tiers, guarantees, scarcity and urgency, sales process, contract, referrals, case studies and content. Works for services, digital products, SaaS, physical products and local businesses.
 
-| Etapa | Tema |
+| Language | Skill folder | Skill name |
+|---|---|---|
+| English (main) | [`business-sales-engine/`](business-sales-engine/SKILL.md) | `business-sales-engine` |
+| Português | [`motor-comercial-negocios/`](motor-comercial-negocios/SKILL.md) | `motor-comercial-negocios` |
+| Español | [`motor-comercial-negocios-es/`](motor-comercial-negocios-es/SKILL.md) | `motor-comercial-negocios-es` |
+
+Install only the language you need. The three versions have the same structure and content.
+
+## What it covers
+
+| Step | Topic |
 |---|---|
-| 0 | Coleta de contexto |
-| 1 | Cliente ideal e dor |
-| 2 | Oferta e as quatro alavancas de valor |
-| 3 | Preço, modelos de cobrança e camadas (incluindo a camada premium 10×) |
-| 4 | Garantias: tipos, empilhamento e nomes |
-| 5 | Escassez e urgência, só com limites reais |
-| 6 | Processo de venda, objeções, onboarding 30/60/90 |
-| 7 | Contrato de prestação de serviços |
-| 8 | Sistema de indicações |
-| 9 | Provas e estudos de caso |
-| 10 | Site e conteúdo |
-| 11 | Escolha de clientes e projetos |
+| 0 | Gather context |
+| 1 | Ideal customer and pain |
+| 2 | Offer and the four value levers |
+| 3 | Pricing, billing models and tiers (including the 10× premium tier) |
+| 4 | Guarantees: types, stacking and naming |
+| 5 | Scarcity and urgency, real limits only |
+| 6 | Sales process, objections, 30/60/90 onboarding |
+| 7 | Service contract |
+| 8 | Referral system |
+| 9 | Proof and case studies |
+| 10 | Website and content |
+| 11 | Choosing customers and projects |
 
-Termina com uma lista de anti-padrões e um formato de entrega padrão em 13 partes.
+It ends with anti-patterns and a 13-part standard output format.
 
-## Instalação
+![Commercial Engine Roadmap](assets/commercial-engine-roadmap.png)
 
-**Claude (app/web):** baixe o `.zip` da pasta `motor-comercial-negocios` e envie na área de skills da sua conta.
+Trust runs through every step: clear expectations, measured results and proof that earns the next opportunity.
 
-**Claude Code:** copie a pasta para `~/.claude/skills/`:
+![The Trust & Evidence Loop](assets/trust-evidence-loop.png)
+
+## Installation
+
+**Claude app/web:** zip the folder of your language and upload it in the skills area of your account.
+
+**Claude Code:**
 
 ```bash
 git clone https://github.com/C48H74/motor-comercial-negocios.git
-cp -r motor-comercial-negocios/motor-comercial-negocios ~/.claude/skills/
+cp -r motor-comercial-negocios/business-sales-engine ~/.claude/skills/
 ```
 
-## Como usar
+## Usage
 
-Peça algo como:
+> Use the business-sales-engine skill to review the offer and pricing of my [describe the business].
 
-> Use a skill motor-comercial-negocios para revisar a oferta e o preço do meu serviço de [descreva o negócio].
+The skill first asks for what is missing (audience, current price, cost, capacity, proof) and returns a diagnosis, rewritten offer, tier table, guarantees, sales script and next steps.
 
-A skill começa perguntando o que faltar (público, preço atual, custo, capacidade, provas) e entrega diagnóstico, oferta reescrita, tabela de camadas, garantias, roteiro de venda e próximos passos.
+## Sources
 
-## Fontes
+Original, paraphrased synthesis of public ideas from Alex Hormozi, Russell Raath, Jonathan Stark, Harrison Baron, John Jantsch, Joel Klettke, Andy Crestodina and ADALID Abogados. No transcripts or copied passages.
 
-Síntese própria e parafraseada de ideias públicas de Alex Hormozi, Russell Raath, Jonathan Stark, Harrison Baron, John Jantsch, Joel Klettke, Andy Crestodina e ADALID Abogados. Não contém transcrições nem trechos copiados.
+Educational content. Not a substitute for legal, accounting or tax advice.
 
-## Aviso
+---
 
-Conteúdo educativo. Não substitui orientação jurídica, contábil ou fiscal.
+## Português
 
-## Licença
+Skill para o Claude que desenha ou revisa a parte comercial de qualquer negócio: oferta, preço e camadas, garantias, escassez e urgência, venda, contrato, indicações, estudos de caso e conteúdo.
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br): pode usar, adaptar e redistribuir, inclusive comercialmente, desde que dê o crédito ao autor.
+- Pasta: [`motor-comercial-negocios/`](motor-comercial-negocios/SKILL.md)
+- Instalação no Claude Code: `cp -r motor-comercial-negocios/motor-comercial-negocios ~/.claude/skills/`
+- Uso: *"Use a skill motor-comercial-negocios para revisar a oferta e o preço do meu [negócio]."*
 
-## Autor
+Síntese própria e parafraseada; não contém transcrições. Conteúdo educativo, não substitui orientação jurídica, contábil ou fiscal.
+
+## Español
+
+Skill para Claude que diseña o revisa la parte comercial de cualquier negocio: oferta, precio y niveles, garantías, escasez y urgencia, venta, contrato, recomendaciones, casos de éxito y contenido.
+
+- Carpeta: [`motor-comercial-negocios-es/`](motor-comercial-negocios-es/SKILL.md)
+- Instalación en Claude Code: `cp -r motor-comercial-negocios/motor-comercial-negocios-es ~/.claude/skills/`
+- Uso: *"Usa la skill motor-comercial-negocios-es para revisar la oferta y el precio de mi [negocio]."*
+
+Síntesis propia y parafraseada; no contiene transcripciones. Contenido educativo, no sustituye el asesoramiento jurídico, contable o fiscal.
+
+---
+
+## License
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use, adapt and redistribute, including commercially, with credit to the author.
+
+## Author
 
 Daniel de Souza Paixão — [LinkedIn](https://www.linkedin.com/in/daniel-paixao-b5988230)

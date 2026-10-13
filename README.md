@@ -12,7 +12,7 @@ A Claude skill that designs or reviews the commercial side of any business: offe
 | Português | [`motor-comercial-negocios/`](motor-comercial-negocios/SKILL.md) | `motor-comercial-negocios` |
 | Español | [`motor-comercial-negocios-es/`](motor-comercial-negocios-es/SKILL.md) | `motor-comercial-negocios-es` |
 
-**v2.0.0 (English) is the current version**: an orchestrator `SKILL.md` plus references, templates, objection library, checklists, examples, trends and a reading list (see its `CHANGELOG.md`). The Portuguese and Spanish folders are still v1 (single file) and lag behind v2.
+**v2.0.0 in all three languages**: an orchestrator `SKILL.md` plus references, templates, objection library, checklists, examples, trends and a reading list (see `CHANGELOG.md` in each folder). The three versions have the same structure and content.
 
 ## What it covers (v2)
 
@@ -63,6 +63,8 @@ Skill para o Claude que desenha ou revisa a parte comercial de qualquer negócio
 - Instalação no Claude Code: `cp -r business-sales-engine/motor-comercial-negocios ~/.claude/skills/`
 - Uso: *"Use a skill motor-comercial-negocios para revisar a oferta e o preço do meu [negócio]."*
 
+**v2.0.0**: orquestrador `SKILL.md` + 17 referências, 9 templates, biblioteca de 15 objeções, checklists, exemplos, tendências e lista de leitura (veja `CHANGELOG.md`).
+
 Síntese própria e parafraseada; não contém transcrições. Conteúdo educativo, não substitui orientação jurídica, contábil ou fiscal.
 
 ## Español
@@ -72,6 +74,8 @@ Skill para Claude que diseña o revisa la parte comercial de cualquier negocio: 
 - Carpeta: [`motor-comercial-negocios-es/`](motor-comercial-negocios-es/SKILL.md)
 - Instalación en Claude Code: `cp -r business-sales-engine/motor-comercial-negocios-es ~/.claude/skills/`
 - Uso: *"Usa la skill motor-comercial-negocios-es para revisar la oferta y el precio de mi [negocio]."*
+
+**v2.0.0**: orquestador `SKILL.md` + 17 referencias, 9 plantillas, biblioteca de 15 objeciones, checklists, ejemplos, tendencias y lista de lectura (ver `CHANGELOG.md`).
 
 Síntesis propia y parafraseada; no contiene transcripciones. Contenido educativo, no sustituye el asesoramiento jurídico, contable o fiscal.
 

@@ -1,235 +1,114 @@
 ---
 name: business-sales-engine
-description: Design or review the commercial engine of any business — offer, pricing and tiers, guarantees, scarcity and urgency, sales process, contract, referrals, case studies and content.
+description: Diagnose and build a commercial engine for services, SaaS/PLG and B2B enterprise sales; use for discovery, offers, pricing, negotiation, buying committees, pipeline, onboarding, churn, retention and commercial experiments.
+license: CC-BY-4.0
+metadata:
+  version: "2.0.0"
+  reviewed: "2026-10-13"
+  next-review: "2027-04-13"
+  language: en
 ---
 
-# Sales engine for any business
+# Business Sales Engine 2.0
 
-Paraphrased synthesis of: Russell Raath (executive consulting), Alex Hormozi (offers, premium tiers, value, guarantees, scarcity and urgency), Jonathan Stark (value pricing and advisory retainers), Harrison Baron (selling technical/cybersecurity services), John Jantsch (referrals), Joel Klettke (case studies), Andy Crestodina (content and website) and ADALID Abogados (service contracts).
+Turn a commercial question into an evidence-backed decision and usable operating tools. Preserve the original twelve areas (0–11), but diagnose the bottleneck before applying a playbook. English is the maintained source; respond in the user's requested language. The repository's PT/ES skills remain v1.
 
-## When to use
-- Create, review or unblock the commercial side of a business: offer, pricing, packages, guarantees, scarcity/urgency, sales script, proposal, contract, onboarding, retention, referrals, case studies, content.
-- Works for services (consulting, agency, IT, clinic, repair shop, freelancer), digital products, SaaS, physical products and local businesses.
+## Start with scope and evidence
 
-Do not use for accounting, taxes or invoicing, specific legal questions (refer to a professional) or graphic design.
+| Mode | Use when | Return |
+|---|---|---|
+| Focused review | One offer, email, price, objection or proposal | Diagnosis, revised artifact, rationale, unresolved facts, next action |
+| Bottleneck diagnosis | Results are weak but the cause is uncertain | Funnel/economics baseline, competing explanations, priority, one experiment |
+| Complete engine | A business or sales motion needs design | Applicable steps 0–11, completed templates, owners, metrics and phased plan |
 
-Reply in the user's language.
+Choose the mode from the request. Reuse supplied data; ask only for missing facts that change the decision and advance independent work meanwhile. Label statements **observed**, **buyer-reported**, **assumed** or **proposed**. Unknown is not zero. Use customer quotes only when supplied or recorded. Never invent customers, outcomes, budgets or stakeholder authority.
 
-## Principles that apply to everything
-1. **Business = arbitrage**: what you earn from a customer must comfortably exceed the cost of acquiring and serving them.
-2. **Order**: Offer → Price → Sales → Demand. "I need more marketing" is almost always a weak offer.
-3. **Trust is the core asset.** The buyer takes on risk (money, time, reputation). Everything should reduce that risk.
-4. **Pick an end**: very expensive for a few or very cheap for many. The middle is the death zone. Starting expensive is usually easier and funds the move down to volume.
-5. **Sell outcomes, not tools.** The service is the vehicle; the customer buys continuity, peace of mind, revenue, time.
-6. **Supply and demand** are the most powerful force in selling. When demand rises, cut supply and raise the price.
-7. **The market exposes lack of clarity**: a vague offer, illogical pricing, the wrong customer and empty content all show up sooner or later.
+## Decision tree: load only relevant resources
 
-## Step 0 — Gather context
-Before proposing anything, get (only what is missing; the user brings the context, the skill brings the method):
-1. What is sold, to whom, and who makes the buying decision.
-2. Country/market (affects contracts and regulations).
-3. Current price, real delivery cost, time spent per customer.
-4. **Real capacity**: how many customers/units can be served per week/month and how often new customers start.
-5. Existing tiers (cheap, mid, premium).
-6. Where customers come from today (referrals, content, ads, outbound).
-7. Available proof (results, testimonials, case studies, certifications).
-8. Goal: more customers, more margin, less effort, recurring revenue, faster decisions.
+| Trigger | Read | Fill/use |
+|---|---|---|
+| Need leads / outbound | [Outbound](references/outbound.md) | [Five touches](templates/5-touch-sequence.md), [cold calls](templates/cold-call-scripts.md), [email examples](examples/cold-email-good-vs-bad.md) |
+| First customer conversation | [Discovery](references/discovery.md) | [Call guide](templates/discovery-call-guide.md), [annotated transcript](examples/discovery-call-transcript.md) |
+| Enterprise qualification | [Qualification](references/qualification.md) | [MEDDPICC](templates/meddpicc-scorecard.md), [deal review](checklists/deal-review.md) |
+| Funnel stages / deal progress | [Sales process](references/sales-process.md) | [Mutual action plan](templates/mutual-action-plan.md), [dashboard](templates/metrics-dashboard.md) |
+| "I'll think" / stalled decision | [Indecision](references/jolt.md), [objection diagnosis](references/objections.md) | [15-objection library](objections/library.md) |
+| Discount / terms / price objection | [Negotiation](references/negotiation.md), [pricing](references/pricing.md) | [Negotiation planner](templates/negotiation-planner.md), [business case](templates/business-case-onepager.md) |
+| One contact / conflicting stakeholders | [Multithreading](references/multithreading.md) | [Committee map](templates/buying-committee-map.md), [mutual action plan](templates/mutual-action-plan.md) |
+| Pitch / demo / positioning | [Narrative](references/narrative.md), [offer](references/offer.md) | [Pitch](templates/pitch-narrative.md), [offer canvas](templates/offer-pricing-canvas.md) |
+| Founder before repeatability | [Founder sales](references/founder-sales.md) | [Engine diagnostic](templates/engine-diagnostic.md) |
+| SaaS usage / free plan / expansion | [PLG/PQL](references/plg-pql.md), [metrics](references/metrics.md) | [PLG experiment](templates/plg-experiment.md), [dashboard](templates/metrics-dashboard.md) |
+| Churn / delivery / scope creep | [Delivery and retention](references/delivery-retention.md) | [30/60/90 handoff](templates/onboarding-30-60-90.md) |
+| Proof / guarantee / scarcity | [Proof](references/proof.md), [psychology](references/psychology.md) | [Risk review](checklists/risk-and-proof.md), [case study](templates/case-study.md) |
+| Contract / referrals / content | [Contract](references/contract.md), [referrals](references/referrals.md), [content](references/content.md) | [Agreement checklist](checklists/contract-handoff.md), [referral request](templates/referral-request.md) |
+| AI prospecting / call analysis / brand | [AI in sales](references/ai-sales.md) | [AI evaluation](templates/ai-sales-evaluation.md), [brand audit](templates/ai-brand-audit.md) |
+| New plan / unclear issue | [Diagnosis](references/diagnosis.md), [economics](references/economics.md) | [Diagnostic](templates/engine-diagnostic.md), [experiment](templates/experiment-card.md) |
 
-## Step 1 — Ideal customer and pain
-- Define the avatar: has money, feels the pain, is reachable, has decision power and the ability to act.
-- **The premium-tier avatar is a different person**, not today's cheap customer willing to pay more.
-- List pains, risks of inaction and **predictable objections** (e.g. "we're too small", "we already have something", "we can't afford it").
-- **Describe the pain better than the customer can.** Whoever articulates the problem precisely seems able to solve it. Sources: reviews of books/products in the niche, sales conversations, recurring questions.
-- Pain and persuasion live in the specific. An exact description of the pain can persuade more than a bigger promise.
-- Disqualify anyone expecting you to solve what is outside your control.
+## Operating principles
 
-## Step 2 — Offer
-**Structure of a clear offer**
-> For [who] who is [specific moment/problem], [I deliver X] in [timeframe], so that [outcome/decision], without [main friction or risk].
+- Revenue must cover acquisition, delivery, risk and capital requirements. Growth can consume cash even with a positive lifetime margin.
+- Investigate reach, lead fit, conversion, capacity and retention before deciding the offer is weak. Positioning follows demand, capabilities and costs; mid-market is valid.
+- Sell a useful outcome with scope, dependencies and limits. Explain where the product does **not** fit. Speed, ease, certainty and outcome size are hypotheses to test.
+- State the genuine full price and terms. In live negotiation, pause for a response. Prefer conditional concessions; do not split the difference automatically.
+- Complex purchases need a buyer-validated case and committee understanding. Standard prices can be shared before discovery; quantified ROI claims require evidence.
+- Seek an agreed next action with owner/date after a call. Written review, a pause or a clear no is valid; do not invent calendar acceptance.
+- Treat no-decision as a possible loss cause, not always the main one. Reduce uncertainty without manufacturing fear, scarcity or deadlines.
+- No mandatory premium multiple, freemium, discount, guarantee stack, talk ratio or LTV/CAC threshold. Match choices to segment and economics.
+- Template fields are intentionally fillable: complete known facts, mark unknowns and identify how to verify them. Simulations are not testimonials.
 
-- Tie the offer to a **specific moment or decision**, not to a category ("marketing", "security", "transformation").
-- Test: **does the right customer know exactly when to call you?**
-- A niche is not a label: it is the reason the market has to trust you with a specific problem. Start where you already have experience, proof and access to buyers.
+## Twelve-area workflow
 
-**Four value levers**
-1. **Dream outcome**, in the customer's own words.
-2. **Perceived likelihood of achievement**: proof, reputation (implied guarantee), close support, competence + genuine intent to help.
-3. **Speed**: the strongest lever. Less waiting beats a bigger result. Cut timelines; give priority in higher tiers. For wealthy buyers, sell time saved.
-4. **Ease**: map every action the customer has to take and remove friction; the more expensive, the more "done for you".
+### 0. Context and baseline
 
-## Step 3 — Pricing and billing model
-**Foundation**
-- Calculate the real delivery cost per tier. Rule of thumb: price ≈ 5–10× cost.
-- Never price from your old salary converted into an hourly/daily rate.
-- For high prices, explain value in three layers: **potential** (total gain if solved), **attributable** (what your work genuinely influences), **realizable** (what the customer is likely to capture after executing). Never claim the full potential.
-- Quantify the cost of inaction. E.g. 10 people × 50/h × hours of downtime = the cost of one day down. Compare it with the investment.
+Collect business/model, market, buyer, objective, prices, variable delivery cost, capacity, channel/funnel data, cash constraints and proof. Define period and sample sizes. Rank bottleneck hypotheses and identify what would falsify the leading explanation.
 
-**Choosing the model (any of them, except hourly billing by default)**
-| Situation | Model |
-|---|---|
-| Project with a beginning, middle, end and goal | Fixed value-based price |
-| Customer wants ongoing access with no fixed goal | Advisory retainer: fixed scope, published price, paid in advance (monthly/quarterly/yearly) |
-| Repeatable service | Productized service with packages |
-| You are very confident in the result and it is measurable | Performance: per unit, % of revenue, % of growth over a baseline, or % of profit |
-| Volume with near-zero delivery cost | Cheap + automated, setup fee + recurring |
+### 1. Customer, problem and qualification/discovery
 
-**Tiers**
-- Offer **good / better / best** (or a single option). Optional: a fourth ultra-premium tier. Define a minimum everyone gets.
-- **Always have a ~10× tier** (and ~100× if possible). Even if few buy it, it anchors the price and lifts the brand: "not everyone can work with me directly, so I built the accessible format".
-- The math: if 10% buy the 10× tier, revenue doubles and that tier can generate about 3/4 of the profit.
-- Selling 1:1 time is legitimate early on (high margin, fast learning), but **cap it at ~5–10% of your time**. When demand rises, cut slots and raise the price. Adjust the price until it is worth your time.
-- With higher prices, pay vendors better so they prioritize your customers.
+Investigate recent real situations, alternatives, attempted fixes and the desired future state. Use SPIN questions and a gap map. For simple purchases confirm problem, fit, buyer and next action. For complex deals add MEDDPICC, champion and committee. BANT is contextual information, not a universal gate. Reject a bad fit respectfully.
 
-**Three exercises to design the premium tier**
-1. If you charged 10× or 100×, what would you include? Cross out what has a high hard cost and see what is left.
-2. If the business could only grow through word of mouth from this one customer, what would the experience look like?
-3. Removing everything that doesn't scale, how could it be worth 10× more?
+### 2. Offer
 
-## Step 4 — Guarantees and risk reversal
-**Types**
-- **Unconditional**: refund, no questions asked, within X days. You can place part of the value after the guarantee period to keep the customer engaged.
-- **Conditional**: valid only if the customer does their part (attends, completes the work). Can promise more (e.g. refund 2× or keep working for free).
-- **Performance**: billing per unit, % of revenue or profit (an implied guarantee).
-- **Implied**: reputation and proof.
-- **No guarantee** ("all sales final"): only with a clear reason why.
+Write who, trigger, deliverable, outcome, scope, timeframe, dependencies and exclusions. Test the four value levers rather than assuming speed wins. Packages are optional and must solve distinct needs; compare with inaction and alternatives.
 
-**Rules**
-- **Never guarantee an outcome you don't control.** Guarantee process, timelines, quality, personal performance and what happens if your part fails.
-- **Stack them**: a short unconditional (e.g. 30 days) + a long conditional (e.g. 90 days or 6 months). The long conditional already future-paces the customer to stay longer and guides the behavior that leads to success.
-- You can stack two conditionals (small result early, big result later). "No guarantee" cannot be stacked with others.
-- **Give the guarantee a memorable name**; "30-day satisfaction guarantee" is forgotten. Use strong imagery or a short formula (e.g. "love it or leave it").
-- Attract customers who want long-term success: show results from customers who have been with you for a year.
-- Also reduce risk with a defined scope, clear responsibilities, a low-risk entry point and a process the buyer can defend internally.
-- Do the math first: an aggressive guarantee is a calculated risk.
+### 3. Price and economics
 
-## Step 5 — Scarcity and urgency
-Goal: the customer decides faster. Faster decisions shorten the cash cycle (e.g. recovering ad spend sooner). **Urgency** is a function of time; **scarcity**, of units. Use one, the other or both.
+Compare cost floor, contribution, capacity, customer value, substitutes and willingness to pay. Choose fixed project, time/materials, retainer, subscription, usage or performance terms deliberately. Separate potential, attributable and realizable value. With unchanged customer count, 10% at 10× and 90% at base gives **1.9× revenue**, not 2× or a fixed profit share.
 
-**Golden rule: real limits only.** Every business already has a capacity limit and a start cadence; define them and communicate them. Never invent deadlines or slots: lying destroys trust.
+### 4. Risk reduction
 
-**Urgency — four legitimate reasons**
-1. **Rolling cohorts**: "the next group starts Monday/on date X". It doesn't say there will never be another; it gives a reason to decide today. Use the cadence you already have (daily, weekly, monthly, twice a year).
-2. **Seasonal**: promotions tied to dates and seasons (New Year, summer, back to school, Black Friday). When one ends, the next starts under another name; changing the "flavor" keeps the urgency authentic.
-3. **Pricing and bonuses by period**: bonuses that rotate month to month or an entry condition valid until a date. Vary the format of the entry offer (token price, free first session, special price) for the same business model. Essential in local markets, where the audience is small and promotions must rotate quickly.
-4. **Exploding opportunity**: the strongest, when there is a real reason for the window to close (a shrinking market advantage, a regulatory change, new technology before everyone adopts it). The sooner you get in, the more you benefit.
+Choose proof, a bounded pilot, acceptance criteria, support, milestones or a guarantee for the actual risk. Estimate refund/rework exposure and worst-case cash need. Disclose conditions before purchase; do not delay value merely to outlast a refund period.
 
-**Scarcity — three forms**
-1. **Slots/capacity**: say how many you can serve ("I take 10 clients a month; 2 spots left before I have to hire"). Besides speeding decisions, it shows social proof, demand and expertise.
-2. **Limited bonuses**: a fixed quantity of an extra, especially physical items, which customers understand as limited.
-3. **One-of-a-kind/limited edition**: drops, limited runs, "when it's gone, it's gone". Sells more than the full catalog always available.
+### 5. Real limits and timing
 
-**Scarcity formats for services**
-- Total cap ("I only work with 100 clients"); name the group after the number.
-- Cap per period ("10 clients a week; after that, next week").
-- Cap per cohort ("Y spots per cohort").
-- In recurring services, the cap also helps retention: those inside don't want to lose their spot.
+Verify capacity, start dates and expiring offers with owner/date. Communicate the reason and next available alternative. Renaming a recurring promotion is not automatically authentic urgency. Buyer readiness can outweigh seller timing.
 
-**In practice**
-- Show scarcity on the page (spots left, next cohort date, promotion end).
-- Include the real reason in the closing line ("we start Monday", "it's the last spot this month").
-- Selling out often? Reduce slots and raise the price.
+### 6. Sales, committee, negotiation and decision
 
-## Step 6 — Sales process
-**Flow**: lead → discovery → diagnosis/assessment → live proposal → close → onboarding → periodic reviews. Record the process in the CRM.
+Define evidence-based stage exits. Recommend live walkthroughs for complex proposals while supporting written/procurement review. Diagnose objections; use JOLT where indecision is supported. Map decision roles, align criteria and give the champion a forwarding-ready case. Negotiate within authority, exchange concessions and record revised terms. A sale needs relevant buyer approval and agreement, not a verbal hint.
 
-**Discovery**
-- Ask about concerns, current situation, what they have tried, impact in money/time, who decides and timeline.
-- If they say "we already have it", go deeper: does it cover everything? 24/7? compliant? the minimum or the right level?
-- Offer a free or low-cost assessment/diagnosis as an entry point.
+### 7. Commercial agreement
 
-**Educate, don't push**
-- Customers don't care about your titles; they care about understanding what you do, how, and what happens if they buy or don't.
-- Use your own cases; without them, use public industry cases and news.
+Prepare scope, acceptance, dependencies, payment, changes, cancellation, data/IP and guarantee terms for appropriate local review. Identify unresolved terms and authorized signers. A commercial checklist is not enforceable legal advice.
 
-**Proposal and price**
-- **Never send a significant proposal by email only.** Present it live to hear hesitation and uncover the real objection (price, internal politics, implementation effort, reputation).
-- **State the full price and confront it** ("it's [price]; it's the path most likely to get you to [outcome]"), then **stay silent**.
-- If they hesitate, offer the **downsell** with most of the elements.
-- Close with the real reason for urgency or scarcity (Step 5).
-- List the price wherever you sell; if you don't list it, always say it in the offer.
+### 8. Referrals
 
-**Objections**
-- An objection usually means insufficient information, not an attack.
-- "Too expensive" → quantify the cost of the risk/downtime vs. the investment.
-- "We already have it" → depth questions.
-- "We don't need it/we're too small" → industry examples, legal/regulatory requirements.
-- "I'll think about it" → remind them of the next cohort, the spots or the period's bonus.
-- Hesitation → low-risk entry, something of value (checklist, guide, consultation).
+Ask after a demonstrated useful result, with a specific fit description and optional introduction text. Obtain permission before sharing contact details. Track quality and fulfillment; disclose incentives and respect declined requests.
 
-**After the yes**
-- Deliver a **30/60/90-day action plan**: what happens and when.
-- **Periodic reviews** (quarterly/yearly), not a sales pitch: what was done, what was prevented, what's next, decisions needed.
+### 9. Proof and customer learning
 
-## Step 7 — Contract
-**Service agreement (always in writing)**
-- Scope: what will be delivered and how.
-- What the customer must provide (access, materials, facilities, people).
-- Price, payment method and terms.
-- Each party's responsibilities and liability limits (consistent with the guarantees).
-- Without a contract, collecting payment or enforcing performance in court is hard. Recommend review by a local lawyer.
+Capture baseline, measured change, period, attribution, limitations and publication approval. Publish actual cases or labeled simulations. Results are not universal promises; do not claim "incidents prevented" without a defensible counterfactual.
 
-## Step 8 — Referrals
-- Businesses that get many referrals don't have a trick: they are **more referable**, because they invest heavily in the customer experience.
-- They also have a **systematic process** so satisfied customers can and want to refer: a defined moment to ask, an easy way to introduce, a thank-you.
-- Design: (1) moments in the journey that delight; (2) when to ask (after a visible win); (3) material that makes referring easy; (4) follow-up and thanks.
+### 10. Website, content and AI assistance
 
-## Step 9 — Proof and case studies
-- **Normalize talking about results from onboarding onward**: metrics, feedback surveys, reviews.
-- **Make wins visible**: many customers don't recognize when they're winning. Send periodic recaps with a value metric (e.g. hours saved, incidents prevented).
-- When asking for a case study, address the fears: exposure, time, how they'll be portrayed, publishing without approval, internal approval.
-- Ask in a personal and specific way: why them, which part of their story you want to highlight.
-- Replace "would you be in a case study?" with "**can we feature your success?**".
-- Bring a plan: what's involved, how long it takes, full customer control over the text, finished examples, and what they get (reach, promotion, a benefit).
-- Premium/"private" clients produce the best case studies.
+Prioritize buying-page information and decision-support content according to the bottleneck. Build reach when distribution is the constraint. Use AI for sourced drafts, reviewed call summaries and testable timing hypotheses. Audit assistant descriptions with dated prompts and observed outputs; simulated personas do not replace customers.
 
-## Step 10 — Website and content
-**Order**
-1. **Key pages first** (services, pricing, contact): answer key questions, address objections, add proof, optimize for search and conversion. Without this, don't produce content.
-2. **Bottom of the funnel**: content that answers the customer's question at the moment of decision. Use it after calls, in email sequences, to warm up cold leads and after proposals.
-3. **Top of the funnel / brand**: only afterwards, for reach and recall (topics broader than the service).
+### 11. Customer selection, delivery and learning loop
 
-**Rules**
-- 97% of the audience isn't ready to buy; the top of the funnel feeds the future.
-- Show your thinking and give away the "secrets"; the customer pays for you to do it.
-- **Only teach what you have tested in practice.**
-- Write for one person, directly, without hedging; every page must be good enough that nobody hits "back".
-- The "about" page is the only one about you; the others talk about the visitor's outcomes and objections.
-- Sustainable consistency (e.g. one article every two weeks) beats spikes. Customer conversations become topics.
-- **Update** old content instead of only creating new.
-- Include **quotes from other experts**: better quality, bigger network and reach. Asking is simple and low-pressure.
-- Deliver what the title promises; a title that doesn't deliver is clickbait.
-- Measure interactions that build trust (referrals, conversations), not volume. Volume that erodes trust becomes reputation debt.
-- Use AI as a partner: simulated personas to audit pages and journeys, a searchable base of project documents, checking how AI assistants describe the brand.
+Choose projects using fit, contribution, risk, capacity, concentration and learning. Agree the first useful result and handoff; use 30/60/90 when the cycle fits. For recurring models track cohort retention, churn, NRR and expansion; fix harmful acquisition/delivery before increasing volume. End with an experiment, owner, budget and continue/stop criteria.
 
-## Step 11 — Choosing customers and projects
-Taking action is mandatory, but every project teaches the market who you are. Ask what it makes possible: proof in the target market, a referral source, a repeatable method, the customer's vocabulary. A cash-only project can be rational; don't pretend it builds the business you want.
+## Output and quality gate
 
-## Anti-patterns
-- Selling a category or tool instead of an outcome/moment.
-- More marketing before fixing the offer and key pages.
-- Hourly billing by inertia; pricing from an old salary; no premium tier.
-- Designing the premium tier from the cheap customer.
-- Vague pain description; ignoring predictable objections.
-- Proposal by email only; price mentioned in passing; talking right after the price.
-- Generic, unnamed guarantees, or guarantees on outcomes outside your control.
-- Invented scarcity or deadlines; hiding real capacity instead of communicating it; the same promotion under the same name all year.
-- Working without a contract.
-- Waiting for referrals without a system; asking for case studies with a generic template.
-- Top-of-funnel content before bottom-of-funnel; teaching what you haven't tested.
-- A 1:1 tier with no time cap.
+Adapt to mode. Complete-engine output covers applicable customer/offer, pricing math, qualification/committee, pipeline/objections, negotiation, risk/limits, agreement, delivery/retention, referrals/proof, content/AI and measurement. Mark non-applicable areas with a reason rather than forcing thirteen outputs. Include completed templates and actions with owner, date, metric, acceptance criterion and dependency.
 
-## Standard output format
-Deliver in the user's language, directly, without filler, adapted to the business:
-1. **Diagnosis**: where the bottleneck is (offer, price, decision speed, sales, retention, referrals, content).
-2. **Avatar and pain** (including the premium avatar) + predictable objections with answers.
-3. **Offer** using the template + value levers applied.
-4. **Tier table**: name, for whom, what's included, timeline/priority, price, billing model, slots.
-5. **Math**: cost, margin and expected revenue per tier; the customer's cost of inaction.
-6. **Guarantees**, stacked and named.
-7. **Scarcity and urgency**: real capacity, cohort cadence, calendar of promotions/bonuses by period.
-8. **Sales script**: discovery questions, price statement, downsell, closing line with real urgency, objection responses.
-9. **30/60/90 onboarding + periodic reviews.**
-10. **Contract checklist.**
-11. **Referral and case study system.**
-12. **Content plan** on 3 levels (key pages, bottom, top) with 5 topics.
-13. **Next 3 concrete steps.**
+Recompute math; distinguish margin/markup; check denominators/periods; trace claims to evidence; show alternative explanations; confirm proposal/guarantee consistency. Use [post-call rubric](checklists/post-call-rubric.md) for call reviews. A playbook does not authorize sending messages, publishing customer proof or accepting terms.
+
+Read [trends.md](trends.md) for dated changes, [sources](references/sources.md) for attribution, [reading by section](references/reading-by-section.md) for study, [numerical examples](examples/unit-economics.md) for calculations and [changelog](CHANGELOG.md) for migration. Review sources every six months or sooner when a material rule changes. A review date records a check, not a promise of continued currency.

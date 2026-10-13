@@ -1,20 +1,50 @@
-# Deal review — red flags and go/hold/stop
+# Deal review: red flags and go/no-go
 
-Deal/stage/owner/date: [ ]. Check evidence, not seller confidence.
+Run before any forecast, before conceding on price, and weekly on deals above your median value.
 
-- [ ] Buyer recognizes the problem and a useful target state.
-- [ ] Required criteria are known; mandatory gaps are visible.
-- [ ] Funding/approval route is plausible and evidenced.
-- [ ] Relevant committee roles and implementation owner are covered.
-- [ ] Champion advocacy is observable, or absence is acknowledged.
-- [ ] Alternatives/status quo and loss reasons are understood.
-- [ ] Evaluation, procurement/security/legal and start dates are feasible.
-- [ ] Business case separates assumptions, attribution and cash benefit.
-- [ ] Price, concession authority, contribution and capacity are checked.
-- [ ] Next action has actual buyer agreement or explicit pause/no.
+## Red flags (any one = "at risk")
 
-Red flags: unverifiable executive access, "champion" based only on friendliness, no rollout owner, repeated information requests with no decision criterion, scope promises delivery cannot honor, seller-invented deadline. Missing evidence may call for validation rather than automatic rejection.
+- [ ] No scheduled next step with a date.
+- [ ] No contact in 14+ days.
+- [ ] Single-threaded (one contact).
+- [ ] Champion failed the "set up a meeting with the economic buyer" test twice.
+- [ ] Economic buyer never met.
+- [ ] Pain not quantified in the buyer's numbers.
+- [ ] Decision criteria not written down by them.
+- [ ] Decision process unknown or "we'll see".
+- [ ] Paper process (legal, security, procurement) unmapped at proposal stage.
+- [ ] "Verbal yes" with no signature path.
+- [ ] Discount requested before the value conversation.
+- [ ] Proposal sent >14 days ago without a response.
+- [ ] Competitor or in-house option never discussed.
+- [ ] Capacity to deliver not confirmed internally.
 
-**Go:** fit and current stage exit evidence justify the next investment. **Hold:** meaningful need but an unresolved owner/criterion/dependency needs a bounded action. **Stop:** impossible fit, unacceptable terms/risk or refusal. Nurture only with permission/trigger.
+## Go / No-go
 
-Decision/rationale: [ ]. Critical gap/action/owner/date: [ ]. No total score overrides a blocking requirement. See [qualification](../references/qualification.md).
+| Question | Yes | No |
+|---|---|---|
+| Is there a quantified gap the buyer stated? | | |
+| Can we fix its root cause? | | |
+| Have we met someone who can release money? | | |
+| Is there a dated decision process? | | |
+| Do we have ≥3 engaged contacts (or deal is small enough not to need them)? | | |
+| Can we deliver well if they sign next week? | | |
+
+Two or more "No" → fix before investing more, or disqualify cleanly (`references/qualification.md`).
+
+## Stage honesty
+
+| CRM stage | Must be true (SKILL.md stage gates) |
+|---|---|
+| Qualified | Pain + impact + named process |
+| Discovery done | Scorecard: no red on Pain, Champion, Process |
+| Proposal | Business case accepted by champion; EB identified and reached |
+| Negotiation | Criteria met; paper process mapped with dates |
+| Commit | Signature path confirmed by EB; kickoff date proposed |
+
+Move deals *back* when the evidence isn't there. A forecast is only as honest as its weakest stage.
+
+## Close reasons (track separately)
+
+☐ Won ☐ Lost to competitor ☐ Lost to in-house ☐ **No decision** ☐ Disqualified by us ☐ Lost on price ☐ Lost on fit
+If "No decision" leads, load `references/jolt.md` for the team.

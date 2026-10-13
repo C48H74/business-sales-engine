@@ -1,233 +1,149 @@
 ---
 name: motor-comercial-negocios
-description: Desenhar ou revisar o motor comercial de qualquer negócio — oferta, preço e camadas, garantias, escassez e urgência, venda, contrato, indicações, estudos de caso e conteúdo.
+description: "Projetar, diagnosticar ou operar o motor comercial de qualquer negócio: oferta e preço, qualificação de leads (MEDDPICC, gap selling), calls de descoberta (SPIN), objeções e negócios parados (JOLT), negociação e descontos, comitês de compra e multithreading, prospecção outbound e entregabilidade de e-mail, narrativa de pitch, vendas lideradas pelo fundador, PLG e leads qualificados por produto, B2B enterprise, SaaS, churn e retenção, métricas CAC/LTV/payback, garantias, escassez, indicações, cases e conteúdo. Gatilhos: vendas, preço, oferta, negócio travado, 'vou pensar', negociação, cold email, cold call, call de descoberta, comitê de compra, churn, pipeline, proposta, business case."
+metadata:
+  version: "2.0.0"
+  last_reviewed: "2026-10-13"
+  review_cadence: "A cada 6 meses: rever trends.md, os benchmarks de metrics.md e reading-list.md com fontes novas."
+  license: "CC BY 4.0"
 ---
 
-# Motor comercial para qualquer negócio
+# Motor Comercial de Negócios (v2)
 
-Síntese parafraseada de: Russell Raath (consultoria executiva), Alex Hormozi (ofertas, camadas premium, valor, garantias, escassez e urgência), Jonathan Stark (preço por valor e mensalidade de aconselhamento), Harrison Baron (venda de serviços técnicos/cibersegurança), John Jantsch (indicações), Joel Klettke (estudos de caso), Andy Crestodina (conteúdo e site) e ADALID Abogados (contrato de serviços).
+Este arquivo é um **orquestrador**, não uma enciclopédia. Ele decide qual módulo carregar para a situação. A teoria fica em `references/`, os artefatos preenchíveis em `templates/`, os roteiros em `objections/`, os critérios go/no-go em `checklists/` e os contrastes práticos em `examples/`. Carregue só o que a situação pede.
 
-## Quando usar
-- Criar, revisar ou destravar a parte comercial de um negócio: oferta, preço, pacotes, garantias, escassez/urgência, roteiro de venda, proposta, contrato, onboarding, retenção, indicações, estudos de caso, conteúdo.
-- Serve para serviços (consultoria, agência, TI, clínica, oficina, freelancer), produtos digitais, SaaS, produtos físicos e comércio local.
+Responda no idioma do usuário. Seja direto. Toda recomendação termina em um artefato, um roteiro ou um número, nunca em um slogan.
 
-Não usar para contabilidade, impostos ou faturação, questões jurídicas específicas (indicar profissional) ou design gráfico.
+## Passo 0 — Escolha o modo
 
-## Princípios que valem para tudo
-1. **Negócio = arbitragem**: o que se ganha com o cliente tem de superar com folga o custo de conquistá-lo e atendê-lo.
-2. **Ordem**: Oferta → Preço → Venda → Demanda. "Preciso de mais marketing" quase sempre é oferta fraca.
-3. **Confiança é o ativo central.** O comprador assume risco (dinheiro, tempo, reputação). Tudo deve reduzir esse risco.
-4. **Escolha uma ponta**: muito caro para poucos ou muito barato para muitos. O meio é a zona da morte. Começar caro costuma ser mais fácil e financia a descida para o volume.
-5. **Venda resultado, não ferramenta.** O serviço é o meio; o cliente compra continuidade, tranquilidade, receita, tempo.
-6. **Oferta e procura** são a força mais poderosa da venda. Havendo demanda, corte oferta e suba o preço.
-7. **O mercado expõe a falta de clareza**: oferta vaga, preço sem lógica, cliente errado e conteúdo vazio aparecem cedo ou tarde.
+| Modo | Quando | Entregável |
+|---|---|---|
+| **Revisão rápida** | O usuário traz uma coisa só (um e-mail, um preço, uma proposta, uma objeção) | Veredito + versão corrigida + um motivo por mudança |
+| **Diagnóstico de gargalo** | "Preciso de mais clientes / receita / margem" sem causa clara | Diagnóstico nos 5 pontos de checagem abaixo + o próximo experimento (use `templates/experiment-card.md`) |
+| **Construção completa** | Oferta nova, segmento novo, motor novo, ou fundador começando a vender | O subconjunto relevante do mapa de 12 passos, cada passo fechado com seu template |
 
-## Etapa 0 — Coleta de contexto
-Antes de propor, obtenha (só o que faltar; o usuário traz o contexto, a skill traz o método):
-1. O que vende, para quem, e quem decide a compra.
-2. País/mercado (afeta contrato e normas).
-3. Preço atual, custo real de entrega, tempo gasto por cliente.
-4. **Capacidade real**: quantos clientes/unidades consegue atender por semana/mês e com que cadência começa clientes novos.
-5. Camadas existentes (barata, média, premium).
-6. De onde vêm os clientes hoje (indicação, conteúdo, anúncio, prospecção).
-7. Provas disponíveis (resultados, depoimentos, casos, certificações).
-8. Objetivo: mais clientes, mais margem, menos esforço, recorrência, decisões mais rápidas.
+Nunca assuma a construção completa por padrão. Pergunte o modo se não estiver claro; se o usuário não estiver presente, escolha o menor modo que responde ao pedido e diga qual escolheu.
 
-## Etapa 1 — Cliente ideal e dor
-- Defina o avatar: tem dinheiro, sente a dor, é alcançável, tem poder de decisão e capacidade de agir.
-- **O avatar da camada premium é outra pessoa**, não o cliente barato atual disposto a pagar mais.
-- Liste dores, riscos de não agir e **objeções previsíveis** (ex.: "sou pequeno demais", "já tenho algo", "não posso pagar").
-- **Descreva a dor melhor que o próprio cliente.** Quem articula o problema com precisão parece capaz de resolvê-lo. Fonte: avaliações de livros/produtos do nicho, conversas de venda, perguntas recorrentes.
-- Dor e persuasão vivem no específico. Uma descrição exata da dor pode convencer mais que uma promessa maior.
-- Desqualifique quem espera que você resolva o que está fora do seu alcance.
+## Passo 1 — Árvore de decisão: o que carregar
 
-## Etapa 2 — Oferta
-**Estrutura de uma oferta clara**
-> Para [quem] que está [momento/problema concreto], [entrego X] em [prazo], para que [resultado/decisão], sem [principal fricção ou risco].
-
-- Amarre a oferta a um **momento ou decisão concreta**, não a uma categoria ("marketing", "segurança", "transformação").
-- Teste: **o cliente certo sabe exatamente quando chamar você?**
-- Nicho não é rótulo: é a razão que o mercado tem para confiar em você num problema específico. Comece onde já tem experiência, provas e acesso a quem compra.
-
-**Quatro alavancas de valor**
-1. **Resultado desejado** na linguagem do cliente.
-2. **Probabilidade percebida**: provas, reputação (garantia implícita), atendimento próximo, competência + intenção real de ajudar.
-3. **Velocidade**: a mais forte. Menos espera vale mais que resultado maior. Corte prazos; dê prioridade nas camadas altas. Para quem tem dinheiro, venda tempo economizado.
-4. **Facilidade**: mapeie cada ação que o cliente precisa fazer e elimine fricções; quanto mais caro, mais "feito para você".
-
-## Etapa 3 — Preço e modelo de cobrança
-**Base**
-- Calcule o custo real de entrega por nível. Referência: preço ≈ 5–10× o custo.
-- Nunca precifique pelo salário antigo convertido em hora/dia.
-- Para valores altos, explique o valor em três camadas: **potencial** (ganho total se resolvido), **atribuível** (o que seu trabalho influencia de verdade), **realizável** (o que o cliente deve capturar após executar). Nunca reivindique o potencial inteiro.
-- Quantifique o custo de não agir. Ex.: 10 pessoas × 50/h × horas paradas = custo de um dia de parada. Compare com o investimento.
-
-**Escolha do modelo (qualquer um, menos cobrar por hora sem pensar)**
-| Situação | Modelo |
+| Situação | Carregar |
 |---|---|
-| Projeto com início, meio, fim e objetivo | Preço fixo por valor |
-| Cliente quer acesso contínuo sem objetivo fechado | Mensalidade de aconselhamento: escopo fixo, preço publicado, pago adiantado (mensal/trimestral/anual) |
-| Serviço repetível | Serviço produtizado com pacotes |
-| Você confia muito no resultado e ele é mensurável | Desempenho: por unidade, % de receita, % de crescimento sobre uma base, ou % de lucro |
-| Volume com custo de entrega quase zero | Barato + automatizado, setup + recorrência |
+| "Preciso de mais clientes" / gargalo incerto | **Sequência de diagnóstico** abaixo, depois `references/metrics.md` |
+| Oferta vaga, preço chutado, tiers bagunçados | `references/offer-pricing.md` + `templates/pricing-tier-worksheet.md` |
+| Montar pipeline / prospectar / outreach frio | `references/outbound.md` + `templates/5-touch-sequence.md` + `templates/cold-call-scripts.md` + `examples/cold-email-good-vs-bad.md` |
+| Primeira call com um prospect | `references/discovery.md` + `templates/discovery-call-guide.md` + `examples/discovery-call-transcript.md` |
+| Qualificar um negócio enterprise / grande | `references/qualification.md` + `templates/meddpicc-scorecard.md` |
+| Negócio parado, "vou pensar", sem próximo passo | `references/jolt.md` + `objections/library.md` |
+| Qualquer objeção, resistência de preço | `references/objections.md` + `objections/library.md`; para preço, também `references/negotiation.md` |
+| Pedido de desconto, compras, termos de contrato | `references/negotiation.md` + `templates/business-case-onepager.md` |
+| Só um contato na conta | `references/multithreading.md` + `templates/buying-committee-map.md` |
+| Pitch, demo, deck, hero do site | `references/narrative.md` + `templates/pitch-narrative.md` |
+| Fundador vendendo pela primeira vez, contratar o primeiro vendedor | `references/founder-sales.md` |
+| Produto self-serve com sinais de uso | `references/plg-pql.md` |
+| Garantia, política de reembolso, urgência, escassez | `references/guarantees-scarcity.md` |
+| Churn, onboarding, escopo que cresce, indicações, cases | `references/delivery-retention.md` |
+| Site, conteúdo, o que publicar | `references/content.md` |
+| Usar IA em prospecção, análise de calls, timing | `references/ai-in-sales.md` |
+| Mecânica de persuasão, frases exatas | `references/psychology.md` |
+| Antes de um forecast ou revisão de pipeline | `checklists/deal-review.md` |
+| Depois de qualquer call de vendas | `checklists/post-call-rubric.md` |
+| "Isto ainda está atual?" | `trends.md` |
+| "O que ler para aprofundar?" | `reading-list.md` |
 
-**Camadas**
-- Ofereça **bom / melhor / ótimo** (ou uma opção única). Opcional: uma quarta ultra-premium. Defina um mínimo que todos recebem.
-- **Sempre tenha uma camada ~10×** (e se possível ~100×). Mesmo que poucos comprem, ela ancora o preço e eleva a marca: "nem todos podem ter o atendimento direto, por isso criei o formato acessível".
-- A conta: se 10% comprarem a camada 10×, a receita dobra e essa camada pode gerar cerca de 3/4 do lucro.
-- Vender tempo 1:1 é legítimo no início (margem alta, aprendizado rápido), mas **limite a ~5–10% do seu tempo**. Havendo demanda, corte vagas e suba o preço. Ajuste o preço até valer seu tempo.
-- Com preço mais alto, pague melhor fornecedores para priorizarem seus clientes.
+## Passo 2 — Sequência de diagnóstico (antes de concluir qualquer coisa)
 
-**Três exercícios para desenhar o premium**
-1. Se cobrasse 10× ou 100×, o que incluiria? Risque o que tem custo alto e veja o que sobra.
-2. Se o negócio só crescesse por boca a boca deste cliente, como seria a experiência?
-3. Tirando tudo o que não escala, como valer 10× mais?
+"Preciso de mais marketing" é uma hipótese, não um diagnóstico. Verifique nesta ordem e pare no primeiro elo quebrado:
 
-## Etapa 4 — Garantias e redução de risco
-**Tipos**
-- **Incondicional**: devolve sem perguntas em X dias. Pode deixar parte do valor para depois do prazo, para segurar o cliente.
-- **Condicional**: só vale se o cliente cumprir o combinado (comparecer, fazer as tarefas). Pode prometer mais (ex.: devolver 2× ou continuar trabalhando de graça).
-- **Desempenho**: cobrança por unidade, % de receita ou lucro (é uma garantia implícita).
-- **Implícita**: reputação e provas.
-- **Sem garantia** ("vendas finais"): só com justificativa clara.
+1. **Alcance** — As pessoas certas, em número suficiente, estão vendo a oferta? (impressões, tamanho da lista, reuniões marcadas)
+2. **Qualidade dos leads** — Dos que respondem, quantos se encaixam no perfil ideal? (qualificados / total)
+3. **Conversão** — Dos leads qualificados, quantos compram e em que etapa caem? (etapa por etapa, veja os critérios de etapa em `references/qualification.md`)
+4. **Capacidade** — O negócio consegue entregar mais sem que a qualidade desabe? (utilização, backlog)
+5. **Retenção e expansão** — Os clientes ficam e compram mais? (churn, NRR, indicações)
 
-**Regras**
-- **Nunca garanta resultado que você não controla.** Garanta processo, prazo, qualidade, desempenho pessoal e o que acontece se a sua parte falhar.
-- **Empilhe**: incondicional curta (ex.: 30 dias) + condicional longa (ex.: 90 dias ou 6 meses). A condicional longa já projeta o cliente para ficar mais tempo e guia o comportamento que leva ao sucesso.
-- Pode empilhar duas condicionais (resultado pequeno cedo, resultado grande depois). Não se empilha "sem garantia" com outras.
-- **Dê nome marcante** à garantia; "30 dias de satisfação garantida" é esquecido. Use imagem forte ou fórmula curta (ex.: "ame ou deixe").
-- Atraia clientes que querem sucesso de longo prazo: mostre resultados de clientes com 1 ano de casa.
-- Reduza risco também com escopo delimitado, responsabilidades claras, entrada de baixo risco e um processo que o comprador consiga defender internamente.
-- Faça a conta antes: garantia agressiva é risco calculado.
+Consertar o alcance quando a conversão está quebrada compra mais derrotas. Consertar a conversão quando a capacidade está cheia compra clientes irritados. Números de cada ponto: `references/metrics.md`.
 
-## Etapa 5 — Escassez e urgência
-Objetivo: o cliente decidir mais rápido. Decisão rápida encurta o ciclo de caixa (ex.: recuperar mais cedo o que foi gasto em anúncio). **Urgência** é função de tempo; **escassez**, de unidades. Use uma, outra ou as duas.
+## Passo 3 — Princípios centrais (revisados na v2)
 
-**Regra de ouro: só limites reais.** Todo negócio já tem limite de capacidade e uma cadência de entrada; defina-os e comunique-os. Nunca invente prazo ou vaga: mentir destrói a confiança.
+1. **Um negócio é arbitragem com margem de segurança.** A receita por cliente precisa superar o custo de adquiri-lo e atendê-lo, com folga para erro. Meça: CAC, payback, margem de contribuição, retenção por coorte.
+2. **Ordem de trabalho: Oferta → Preço → Vendas → Demanda**, mas diagnostique primeiro (Passo 2). Mais demanda sobre uma oferta fraca expõe a fraqueza mais rápido.
+3. **Confiança é o ativo.** O comprador carrega risco de dinheiro, tempo e reputação. Todo artefato deve reduzir esse risco com evidência, não com adjetivos.
+4. **O posicionamento segue demanda, custo e capacidade**, não um slogan. Premium, médio e volume funcionam quando a economia unitária fecha. A "zona da morte" é qualquer posição em que preço, custo de atender e expectativa do comprador não combinam.
+5. **Venda resultados que o comprador definiu**, não funcionalidades que você construiu. Descubra o que ele valoriza antes de assumir que velocidade, preço ou comodidade é a alavanca.
+6. **Oferta e demanda definem o teto do preço; o custo define o piso; as alternativas definem a referência.** Quando a demanda excede a capacidade, suba o preço ou corte vagas; quando não excede, conserte a oferta antes de cortar preço.
+7. **"Não decidir" é o principal concorrente.** A indecisão perde mais negócios qualificados do que os rivais; trate-a como uma objeção com playbook próprio (`references/jolt.md`).
+8. **O mercado expõe a vagueza.** Oferta vaga aparece como leads desqualificados; preço ilógico aparece na negociação; cliente errado aparece na entrega; conteúdo vazio aparece como silêncio.
 
-**Urgência — quatro razões legítimas**
-1. **Turmas rolantes**: "a próxima turma começa segunda/dia X". Não diz que nunca mais haverá; dá um motivo para decidir hoje. Use a cadência que você já tem (diária, semanal, mensal, semestral).
-2. **Sazonal**: promoções ligadas a datas e estações (Ano Novo, verão, volta às aulas, Black Friday). Quando uma termina, a seguinte começa com outro nome; a mudança de "sabor" mantém a urgência autêntica.
-3. **Preço e bônus por período**: bônus que mudam de mês a mês (rodízio) ou condição de entrada válida até uma data. Varie o formato da oferta de entrada (valor simbólico, primeira sessão grátis, preço especial) para o mesmo modelo de negócio. Essencial em mercados locais, onde o público é pequeno e as promoções precisam girar rápido.
-4. **Oportunidade que se esgota**: a mais forte, quando existe uma razão real para a janela fechar (vantagem de mercado que encolhe, mudança regulatória, tecnologia nova antes de todos adotarem). Quanto antes entrar, mais aproveita.
+## Passo 4 — O mapa de 12 passos (o que uma construção completa cobre)
 
-**Escassez — três formas**
-1. **Vagas/capacidade**: diga quanto consegue atender ("atendo 10 clientes por mês; restam 2 antes de eu ter de contratar"). Além de acelerar, mostra prova social, demanda e expertise.
-2. **Bônus limitados**: quantidade fixa de um extra, especialmente brindes físicos, que o cliente entende como limitados.
-3. **Edição única/limitada**: lançamentos em lote, série limitada, "quando acabar, acabou". Vende mais do que o catálogo inteiro sempre disponível.
+| # | Passo | Módulo | Fecha com |
+|---|---|---|---|
+| 0 | Levantamento de contexto | abaixo | Levantamento preenchido |
+| 1 | Cliente ideal, dor, pesquisa | `references/discovery.md` (seção Mom Test) | Notas de pesquisa com clientes |
+| 2 | Oferta | `references/offer-pricing.md` | Declaração da oferta |
+| 3 | Economia e preço | `references/offer-pricing.md`, `references/metrics.md` | `templates/pricing-tier-worksheet.md` |
+| 4 | Qualificação e descoberta | `references/qualification.md`, `references/discovery.md` | `templates/meddpicc-scorecard.md`, `templates/discovery-call-guide.md` |
+| 5 | Narrativa e prova | `references/narrative.md`, `references/delivery-retention.md` | `templates/pitch-narrative.md` |
+| 6 | Redução de risco, escassez | `references/guarantees-scarcity.md` | Garantia com conta de exposição |
+| 7 | Pipeline e outbound | `references/outbound.md` | `templates/5-touch-sequence.md` |
+| 8 | Objeções, indecisão, negociação | `references/objections.md`, `references/jolt.md`, `references/negotiation.md` | `templates/business-case-onepager.md` |
+| 9 | Comitê de compra | `references/multithreading.md` | `templates/buying-committee-map.md` |
+| 10 | Contrato e transição | `references/delivery-retention.md` (seção de contrato) | Checklist de contrato, documento de transição |
+| 11 | Entrega, retenção, indicações, cases | `references/delivery-retention.md` | Plano 30/60/90, momento da indicação, consentimento do case |
+| 12 | Conteúdo e alavancagem de IA | `references/content.md`, `references/ai-in-sales.md` | Plano de conteúdo, fluxo de IA |
 
-**Formatos de escassez em serviços**
-- Teto total ("só trabalho com 100 clientes"); dê ao grupo o nome do número.
-- Teto por período ("10 clientes por semana; depois, só na próxima").
-- Teto por turma ("Y vagas por turma").
-- Em recorrência, o teto também ajuda a reter: quem está dentro não quer perder a vaga.
+Transversais: `references/metrics.md` (meça cada passo), `references/psychology.md` (formulação), `templates/experiment-card.md` (mude uma coisa de cada vez).
 
-**Na prática**
-- Mostre a escassez na página (vagas restantes, data da próxima turma, fim da promoção).
-- Inclua a razão real na frase de fechamento ("começamos segunda", "é a última vaga deste mês").
-- Esgotou com frequência? Reduza vagas e aumente o preço.
+## Levantamento de contexto (pergunte só o que falta)
 
-## Etapa 6 — Processo de venda
-**Fluxo**: lead → descoberta → diagnóstico/avaliação → proposta ao vivo → fechamento → onboarding → revisões periódicas. Registre o processo no CRM.
+1. O que se vende, para quem, quem assina, quem usa.
+2. Mercado e país (normas contratuais, hábitos de compras).
+3. Preço hoje, custo real de entrega, horas por cliente.
+4. Capacidade: clientes por semana/mês, cadência de início.
+5. De onde vêm os clientes hoje; conversão por etapa, se conhecida.
+6. Prova disponível: resultados com números, depoimentos, cases, certificações.
+7. Tamanho do negócio e duração do ciclo (decide se MEDDPICC e multithreading se aplicam).
+8. Meta e restrição: mais clientes, mais margem, menos esforço, receita recorrente, decisões mais rápidas.
 
-**Descoberta**
-- Pergunte sobre preocupações, situação atual, o que já tentaram, impacto em dinheiro/tempo, quem decide e prazo.
-- Se dizem "já temos", aprofunde: cobre tudo? 24/7? cumpre normas? é o mínimo ou o adequado?
-- Ofereça uma avaliação/diagnóstico gratuito ou barato como porta de entrada.
+## Regras invioláveis
 
-**Eduque, não empurre**
-- O cliente não liga para seus títulos; liga para entender o que você faz, como, e o que acontece se comprar ou não.
-- Use casos próprios; sem eles, use casos públicos do setor e notícias.
+1. Toda call termina com próximo passo agendado, ou o negócio é marcado como em risco.
+2. Nenhum preço sai sem dor quantificada ou business case (`templates/business-case-onepager.md`).
+3. Desconto se troca, nunca se dá: "Faço X se você fizer Y."
+4. Negócios enterprise nunca têm um único contato.
+5. Trate o "não decidir" antes de tratar a concorrência.
+6. Escassez e prazos são reais ou não existem. Urgência inventada é um saque de confiança que você não consegue repor.
+7. Prova é documentada e autorizada. Simulações são rotuladas como simulações.
+8. Uma variável por experimento, com regra de parada.
 
-**Proposta e preço**
-- **Nunca envie proposta relevante só por e-mail.** Apresente ao vivo para ouvir hesitação e descobrir a real objeção (preço, política interna, esforço de implantação, reputação).
-- **Diga o preço por inteiro e confronte-o** ("é [preço]; é o caminho com mais chance de te levar a [resultado]"), depois **fique em silêncio**.
-- Se hesitar, ofereça a **versão reduzida** com a maior parte dos elementos.
-- Feche com a razão real de urgência ou escassez (Etapa 5).
-- Liste o preço onde vende; se não lista, diga sempre na oferta.
+## Critérios de etapa do funil (critérios objetivos para avançar)
 
-**Objeções**
-- Objeção geralmente significa informação insuficiente, não ataque.
-- "Caro" → quantifique o custo do risco/da parada vs. investimento.
-- "Já temos" → perguntas de profundidade.
-- "Não precisamos/somos pequenos" → exemplos do setor, exigências legais/normativas.
-- "Vou pensar" → relembre a próxima turma, as vagas ou o bônus do período.
-- Hesitação → entrada de baixo risco, material de valor (checklist, guia, consulta).
+| Etapa | Critério de saída |
+|---|---|
+| Lead | Encaixa no perfil em 2 de 3: segmento, cargo, sinal de gatilho |
+| Qualificado | Dor dita nas palavras dele + impacto quantificado + um processo de decisão nomeado |
+| Descoberta concluída | Scorecard MEDDPICC sem vermelho em Dor, Champion e Processo de Decisão |
+| Proposta | Business case aceito pelo champion; comprador econômico identificado e alcançado |
+| Negociação | Critérios escritos atendidos; processo burocrático (jurídico, segurança, compras) mapeado com datas |
+| Fechado | Assinado + kickoff agendado + documento de transição enviado |
 
-**Depois do sim**
-- Entregue um **plano de ação 30/60/90 dias**: o que acontece, quando.
-- **Revisões periódicas** (trimestral/anual), sem tom de venda: o que foi feito, o que foi evitado, o que vem aí, decisões necessárias.
+## Contratos de saída
 
-## Etapa 7 — Contrato
-**Contrato de prestação de serviços (sempre por escrito)**
-- Escopo: o que será entregue e como.
-- O que o cliente deve fornecer (acessos, materiais, instalações, pessoas).
-- Preço, forma e prazos de pagamento.
-- Responsabilidades de cada parte e limites de responsabilidade (coerente com as garantias).
-- Sem contrato, cobrar ou exigir cumprimento na justiça fica difícil. Recomende revisão por advogado local.
+**Revisão rápida:** 1) veredito em uma linha; 2) o artefato corrigido; 3) registro de mudanças, um motivo por mudança; 4) uma coisa para testar em seguida.
 
-## Etapa 8 — Indicações
-- Negócios que recebem muitas indicações não têm um truque: são **mais indicáveis**, porque investem pesado na experiência do cliente.
-- Além disso, têm **processo sistemático** para que clientes satisfeitos possam e queiram indicar: momento definido para pedir, facilidade para apresentar, agradecimento.
-- Desenhe: (1) pontos da jornada que encantam; (2) momento de pedir (após uma vitória visível); (3) material que facilita indicar; (4) acompanhamento e agradecimento.
+**Diagnóstico de gargalo:** 1) os cinco pontos com o número ou "desconhecido" em cada um; 2) o elo quebrado; 3) um cartão de experimento; 4) o que medir em 30 dias.
 
-## Etapa 9 — Provas e estudos de caso
-- **Normalize falar de resultados desde o onboarding**: métricas, pesquisas de feedback, revisões.
-- **Torne as vitórias visíveis**: muitos clientes não reconhecem quando estão ganhando. Envie resumos periódicos com uma métrica de valor (ex.: horas economizadas, incidentes evitados).
-- Ao pedir um caso, trate os medos: exposição, tempo, como serão apresentados, publicar sem aprovação, aprovação interna.
-- Peça de forma pessoal e específica: por que eles, que parte da história quer destacar.
-- Troque "participar de um estudo de caso" por "**podemos destacar o seu sucesso?**".
-- Leve um plano: o que envolve, quanto tempo, controle total do cliente sobre o texto, exemplos prontos, e o que ganham (alcance, divulgação, benefício).
-- Clientes premium/"privados" geram os melhores casos.
+**Construção completa:** os passos aplicáveis do mapa de 12 passos, cada um fechado com seu template, e depois um plano de 30 dias com responsáveis e métricas. Nunca encha com passos que não se aplicam.
 
-## Etapa 10 — Site e conteúdo
-**Ordem**
-1. **Páginas-chave primeiro** (serviços, preços, contato): responder perguntas-chave, tratar objeções, provas, otimização para busca e conversão. Sem isso, não produza conteúdo.
-2. **Fundo do funil**: conteúdo que responde a pergunta do cliente no momento da decisão. Use após reuniões, em sequências de e-mail, para aquecer leads frios e depois de propostas.
-3. **Topo do funil / marca**: só depois, para alcance e lembrança (temas mais amplos que o serviço).
+## O que esta skill se recusa a fazer
 
-**Regras**
-- 97% do público não está pronto para comprar; o topo do funil alimenta o futuro.
-- Mostre o raciocínio e entregue os "segredos"; o cliente paga para que você faça.
-- **Só ensine o que você testou na prática.**
-- Escreva para uma pessoa, direto, sem rodeios; cada página tem de ser boa o bastante para ninguém apertar "voltar".
-- A página "sobre" é a única centrada em você; as demais falam de resultados e objeções do visitante.
-- Constância sustentável (ex.: 1 artigo a cada 2 semanas) vence picos. Conversas com clientes viram pautas.
-- **Atualize** conteúdo antigo em vez de só criar novo.
-- Inclua **citações de outros especialistas**: melhora a qualidade, amplia rede e alcance. Pedir é simples e sem pressão.
-- Cumpra a expectativa do título; título que não entrega é clickbait.
-- Meça interações que geram confiança (indicações, conversas), não volume. Volume que desgasta confiança vira dívida de reputação.
-- Use IA como parceira: personas simuladas para auditar páginas e jornadas, base de documentos de projeto consultável, verificação de presença da marca em assistentes de IA.
+- Usar BANT como portão (orçamento e prazo ficam só como sinais).
+- Escrever aberturas do tipo "espero que esteja bem" ou "gostaria de apresentar nossa empresa".
+- Apresentar funcionalidades e benefícios como estrutura de pitch.
+- Recomendar volume de e-mail sem configuração de entregabilidade.
+- Empilhar garantias por padrão ou prometer resultados fora do controle do vendedor.
+- Citar percentuais sem fonte e população ("97% não estão prontos para comprar" foi aposentado).
+- Dar frases motivacionais no lugar de uma ação.
 
-## Etapa 11 — Escolha de clientes e projetos
-Agir é obrigatório, mas cada projeto ensina ao mercado quem você é. Pergunte o que ele torna possível: prova no mercado-alvo, fonte de indicação, método repetível, vocabulário do cliente. Projeto só de caixa pode ser racional; não finja que constrói o negócio desejado.
+## Manutenção
 
-## Anti-padrões
-- Vender categoria ou ferramenta em vez de resultado/momento.
-- Mais marketing antes de consertar oferta e páginas-chave.
-- Cobrar por hora por inércia; preço pelo salário antigo; nenhuma camada premium.
-- Pensar o premium a partir do cliente barato.
-- Dor descrita de forma vaga; ignorar objeções previsíveis.
-- Proposta só por e-mail; preço dito de passagem; falar logo depois do preço.
-- Garantia genérica, sem nome, ou sobre resultado fora do controle.
-- Escassez ou prazo inventados; esconder a capacidade real em vez de comunicá-la; a mesma promoção com o mesmo nome o ano todo.
-- Trabalhar sem contrato.
-- Esperar indicações sem sistema; pedir estudo de caso com modelo genérico.
-- Conteúdo de topo antes do fundo do funil; ensinar o que não testou.
-- Camada 1:1 sem limite de tempo.
-
-## Formato de saída padrão
-Entregar em português, direto, sem enchimento, adaptando ao negócio:
-1. **Diagnóstico**: onde está o gargalo (oferta, preço, velocidade de decisão, venda, retenção, indicação, conteúdo).
-2. **Avatar e dor** (inclui avatar premium) + objeções previsíveis com resposta.
-3. **Oferta** no modelo + alavancas de valor aplicadas.
-4. **Tabela de camadas**: nome, para quem, o que inclui, prazo/prioridade, preço, modelo de cobrança, vagas.
-5. **Conta**: custo, margem e receita esperada por camada; custo de não agir para o cliente.
-6. **Garantias** empilhadas, com nome.
-7. **Escassez e urgência**: capacidade real, cadência de turmas, calendário de promoções/bônus por período.
-8. **Roteiro de venda**: perguntas de descoberta, frase de preço, versão reduzida, frase de fechamento com urgência real, respostas a objeções.
-9. **Onboarding 30/60/90 + revisões periódicas.**
-10. **Checklist do contrato.**
-11. **Sistema de indicação e de estudos de caso.**
-12. **Plano de conteúdo** em 3 níveis (páginas-chave, fundo, topo) com 5 pautas.
-13. **Próximos 3 passos** concretos.
+Veja `CHANGELOG.md`. Tendências e benchmarks envelhecem mais rápido: reverifique `trends.md` e as heurísticas de `references/metrics.md` a cada data de revisão. Fontes por seção: `reading-list.md`.
